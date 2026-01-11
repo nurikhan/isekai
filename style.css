@@ -355,40 +355,43 @@ input, select {
     top: 0; left: 0; right: 0; bottom: 0;
     z-index: 10;
     border-radius: 15px;
+
+    /* 배경 반복 금지 (격자 무늬 원천 차단) */
+    background-repeat: no-repeat;
     
-/* [수정 1] 투명도를 0.1~0.3 수준으로 대폭 낮춤 (은은하게) */
+    /* 투명도를 0.1~0.3 수준으로 대폭 낮춤 (은은하게) */
+    /* 모바일 가독성을 위해 하이라이트(흰색) 강도 상향 (0.3 -> 0.5) */
+    /* transparent 구간은 유지하여 글씨 가독성 확보 */
     background: linear-gradient(
         115deg, 
         transparent 20%,
-        rgba(255, 255, 255, 0.1) 30%,  /* 아주 연한 빛 */
-        rgba(255, 255, 255, 0.3) 45%,  /* 하이라이트도 너무 세지 않게 */
-        rgba(255, 255, 255, 0.4) 50%,  /* 중심부 */
-        rgba(255, 255, 255, 0.1) 55%, 
+        rgba(255, 255, 255, 0.2) 35%,  /* 부드러운 빛 */
+        rgba(255, 255, 255, 0.5) 45%,  /* ★ 쨍한 하이라이트 (0.5로 상향) */
+        rgba(255, 255, 255, 0.2) 55%,
         transparent 70%
     );
     
     opacity: 0; /* 평소엔 숨김 */
-/* [수정 2] color-dodge는 너무 셈. overlay가 글씨를 해치지 않음 */
     mix-blend-mode: overlay; 
     pointer-events: none;
     transition: opacity 0.5s;
     
-/* [수정 3] 배경을 4배로 키워서 끝부분(격자)이 절대 안 보이게 함 */
-    background-size: 400% 400%;
+    /* 배경 크기는 여유 있게 유지 */
+    background-size: 300% 300%;
 }
 
 /* 3. SSS급, S급일 때만 홀로그램 활성화 */
 .ticket-frame.rank-sss .holo-overlay,
 .ticket-frame.rank-s .holo-overlay {
     opacity: 1; /* 보이게 함 */
-    /* 황금빛도 너무 노랗지 않게 은은한 샴페인 골드로 수정 */
     background: linear-gradient(
         115deg,
-        transparent 25%,
-        rgba(255, 223, 0, 0.15) 40%, /* 연한 골드 */
-        rgba(255, 255, 255, 0.5) 50%, /* 흰색 광택 */
-        rgba(255, 223, 0, 0.15) 60%,
-        transparent 75%
+        transparent 20%,
+        rgba(255, 215, 0, 0.2) 35%, 
+        rgba(255, 255, 255, 0.6) 50%, /* ★ 흰색 광택을 더 강하게 */
+        rgba(255, 215, 0, 0.2) 65%,
+        transparent 80%
     );
-    background-size: 400% 400%;
+    background-repeat: no-repeat; /* 반복 금지 필수 */
+    background-size: 300% 300%;
 }

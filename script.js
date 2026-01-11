@@ -371,19 +371,28 @@ function applyEffect(x, y) {
     // ticket.style.transform = ... (이 부분 제거)
     // 대신 미세한 스케일링만 둬서 '살아있는' 느낌만 줌 (선택 사항)
     // ticket.style.transform = `scale3d(1.0, 1.0, 1.0)`; 
+    // 카드 자체의 움직임은 제거 (고정)
+    // ticket.style.transform = `perspective(1000px)`;
 
     // 2. 홀로그램 빛 반사 효과만 이동
     if (holo && getComputedStyle(holo).opacity !== '0') {
-        // x, y 값(-1 ~ 1)을 퍼센트(%)로 변환
-        // 중앙(50%)을 기준으로 빛이 넓게 움직이도록 범위 설정
-        const bgPosX = 50 + (x * 60); // 좌우로 60% 정도 더 움직임
-        const bgPosY = 50 + (y * 60); // 상하로 60% 정도 더 움직임
+        // [수정] 이동 범위 제한 로직
+        // x, y는 -1 ~ 1 사이의 값
         
-        // 홀로그램 위치 이동
+        // 기존 60을 곱하던 것을 25로 줄입니다.
+        // 이유: 50%를 기준으로 ±25%만 움직이게 하여 (25% ~ 75% 범위)
+        // 절대 배경 이미지의 끝(0%나 100%)에 도달하지 않게 합니다.
+        const movementRange = 25; 
+        
+        const bgPosX = 50 + (x * movementRange);
+        const bgPosY = 50 + (y * movementRange);
+        
+        // 홀로그램 위치 적용
         holo.style.backgroundPosition = `${bgPosX}% ${bgPosY}%`;
         
-        // (옵션) 폰을 많이 기울이면 빛이 더 강해짐
-        // holo.style.filter = `brightness(${100 + Math.abs(x * 30)}%)`; 
+        // (선택 옵션) 모바일에서 기울였을 때만 반짝임 강도를 높여주는 코드
+        // 정면일 땐 은은하다가, 기울이면(절댓값이 커지면) 투명도를 살짝 올려줌
+        holo.style.opacity = 0.8 + (Math.abs(x) * 0.2); // 기본 0.8 ~ 최대 1.0
     }
 }
 
