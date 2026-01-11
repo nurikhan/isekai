@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 차원 좌표 오류</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: #111;
+            color: #fff;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #ff4757;
+            text-shadow: 0 0 20px rgba(255, 71, 87, 0.5);
+            margin: 0;
+        }
+        .error-msg {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #aaa;
+        }
+        .home-btn {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #6d5dfc, #1e90ff);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 0 15px rgba(109, 93, 252, 0.4);
+            transition: transform 0.2s;
+        }
+        .home-btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <h2>⚠️ 차원 좌표를 찾을 수 없습니다.</h2>
+        <p class="error-msg">
+            트럭이 이곳까지는 오지 않는 것 같습니다.<br>
+            잘못된 주소이거나 삭제된 페이지입니다.
+        </p>
+        <a href="/" class="home-btn">🏠 지구(메인)로 귀환하기</a>
+    </div>
+</body>
+</html>
