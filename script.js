@@ -55,6 +55,15 @@ function setLanguage(lang) {
     document.getElementById('ui-btn-save').innerText = ui.btnSave;
     document.getElementById('ui-btn-share').innerText = ui.btnShare;
     document.getElementById('ui-btn-retry').innerText = ui.btnRetry;
+
+    // [추가] FAQ 가이드 번역 적용
+    document.getElementById('ui-guide-title').innerText = ui.guideTitle;
+    document.getElementById('ui-guide-q1').innerText = ui.guideQ1;
+    document.getElementById('ui-guide-a1').innerText = ui.guideA1;
+    document.getElementById('ui-guide-q2').innerText = ui.guideQ2;
+    document.getElementById('ui-guide-a2').innerText = ui.guideA2;
+    document.getElementById('ui-guide-q3').innerText = ui.guideQ3;
+    document.getElementById('ui-guide-a3').innerText = ui.guideA3;
 }
 
 // 1. 초기 실행 (기본 한국어 설정)
@@ -100,7 +109,8 @@ function issueTicket() {
     const stress = document.getElementById('stress-cause').value;
 
     if (!name || !gender) {
-        alert("Please enter name and gender!"); // 간단한 공통 알림
+        // [수정] 언어별 경고 메시지 출력
+        alert(database[currentLang].ui.alertName); 
         return;
     }
 
@@ -353,7 +363,8 @@ function saveTicket() {
 
     // 저장 중 표시
     const originalText = btn.innerText;
-    btn.innerText = "Processing..."; // 다국어 처리 전 임시 텍스트 (또는 ui.btnSave + "...")
+    // [수정] "Processing..." -> 언어별 "저장 중..." 텍스트로 변경
+    btn.innerText = database[currentLang].ui.saving;
 
     html2canvas(ticketElement, {
         scale: 2, // 고화질로 저장

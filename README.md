@@ -55,5 +55,5 @@
 
 2. index.html 파일을 브라우저에서 실행하거나, VS Code의 Live Server를 사용하세요.
 
-📄 License
+##📄 License
 This project is for entertainment purposes only. Copyright © 2026 Isekai Ticket Agency. All rights reserved.

@@ -32,7 +32,20 @@ const database = {
             btnShare: "친구에게 자랑하고 잠금해제",
             btnRetry: "다시 태어나기 (Re-roll)",
             shareTitle: "이세계 티켓 발급소",
-            shareText: "내 이세계 등급은 [RANK]입니다! 당신도 확인해보세요."
+            shareText: "내 이세계 등급은 [RANK]입니다! 당신도 확인해보세요.",
+            
+            // [추가된 부분] FAQ 가이드
+            guideTitle: "🧙‍♂️ 이용 가이드 & 세계관 설정",
+            guideQ1: "Q. 결과는 랜덤인가요?",
+            guideA1: "A. 이름, 성별, 스트레스를 분석해 고유한 운명이 결정됩니다. 같은 정보를 입력하면 항상 같은 결과가 나옵니다.",
+            guideQ2: "Q. 어떤 세계가 있나요?",
+            guideA2: "A. 로맨스 판타지, 무협, 헌터물, 아포칼립스 등 32종 이상의 차원이 준비되어 있습니다.",
+            guideQ3: "Q. 등급 기준은요?",
+            guideA3: "A. 순전히 당신의 '영혼의 운'에 달렸습니다. F급이라도 히든 스킬로 역전할 수 있습니다.",
+            
+            // [추가된 부분] 알림 메시지
+            alertName: "이름과 성별을 모두 입력해주세요!",
+            saving: "저장 중..."
         },
         // 1. 세계관 (32종: 공통 20 + 남성향 6 + 여성향 6)
         worlds: {
@@ -472,7 +485,20 @@ const database = {
             btnShare: "Share & Unlock",
             btnRetry: "Re-roll (Reincarnate)",
             shareTitle: "Isekai Ticket Agency",
-            shareText: "My Isekai Rank is [RANK]! Check yours now."
+            shareText: "My Isekai Rank is [RANK]! Check yours now.",
+
+            // [Added] FAQ Guide
+            guideTitle: "🧙‍♂️ User Guide & Lore",
+            guideQ1: "Q. Is the result random?",
+            guideA1: "A. No. It analyzes your name and stress to decide your fate. Same input yields same result.",
+            guideQ2: "Q. What worlds exist?",
+            guideA2: "A. Over 32 dimensions including Romance Fantasy, Murim, Hunters, and Apocalypse await you.",
+            guideQ3: "Q. How is rank decided?",
+            guideA3: "A. It depends purely on your 'Soul Luck'. Even F-rank can turn the tables with hidden skills.",
+
+            // [Added] Alerts
+            alertName: "Please enter your name and gender!",
+            saving: "Saving..."
         },
         worlds: {
             common: [
@@ -751,7 +777,20 @@ const database = {
             btnShare: "シェアしてロック解除",
             btnRetry: "リセマラ (転生し直す)",
             shareTitle: "異世界チケット発券所",
-            shareText: "私の異世界ランクは[RANK]です！あなたも確認してみてね。"
+            shareText: "私の異世界ランクは[RANK]です！あなたも確認してみてね。",
+
+            // [Added] FAQ Guide
+            guideTitle: "🧙‍♂️ 利用ガイド & 世界観",
+            guideQ1: "Q. 結果はランダムですか？",
+            guideA1: "A. いいえ。名前とストレスを分析して運命が決まります。同じ情報を入力すれば常に同じ結果が出ます。",
+            guideQ2: "Q. どんな世界がありますか？",
+            guideA2: "A. ロマンスファンタジー、武侠、ハンター物、ポストアポカリプスなど32種類以上の次元があります。",
+            guideQ3: "Q. ランクの基準は？",
+            guideA3: "A. 純粋にあなたの「魂の運」次第です。Fランクでも隠しスキルで逆転可能です。",
+
+            // [Added] Alerts
+            alertName: "名前と性別を入力してください！",
+            saving: "保存中..."
         },
         worlds: {
             common: [
