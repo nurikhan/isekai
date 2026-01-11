@@ -131,9 +131,11 @@ input, select {
 }
 
 /* 마우스 올렸을 때 살짝 떠오르는 효과 (PC용 디테일) */
+/*
 .ticket-frame:hover {
     transform: translateY(-5px);
 }
+*/
 
 .ticket-header {
     background: #000;
