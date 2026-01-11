@@ -105,102 +105,102 @@ const database = {
                 { 
                     text: "초보자용 슬라임 평원", 
                     desc: "평화롭지만 지루한 슬라임들의 고향.", 
-                    img: "img/w_common_01.jpg" 
+                    img: "img/w_common_01.webp" 
                 },
                 { 
                     text: "고양이 제국 (냥토피아)", 
                     desc: "인간이 멸종하고 거대 고양이가 지배하는 힐링 세계.", 
-                    img: "img/w_common_02.jpg" 
+                    img: "img/w_common_02.webp" 
                 },
                 { 
                     text: "K-고딩 마법학교", 
                     desc: "야간 자율학습을 하며 주문을 외우는 입시 지옥.", 
-                    img: "img/w_common_03.jpg" 
+                    img: "img/w_common_03.webp" 
                 },
                 { 
                     text: "좀비 사태 1일 차 편의점", 
                     desc: "유통기한 지난 삼각김밥이 보물인 아포칼립스.", 
-                    img: "img/w_common_04.jpg" 
+                    img: "img/w_common_04.webp" 
                 },
                 { 
                     text: "사이버펑크 네오 서울 2088", 
                     desc: "비 내리는 회색 도시, 기계 팔을 단 배달부가 사는 곳.", 
-                    img: "img/w_common_05.jpg" 
+                    img: "img/w_common_05.webp" 
                 },
                 { 
                     text: "디저트 킹덤", 
                     desc: "강물은 초콜릿, 구름은 솜사탕. 당뇨만 조심하면 천국.", 
-                    img: "img/w_common_06.jpg" 
+                    img: "img/w_common_06.webp" 
                 },
                 { 
                     text: "지옥의 불반도", 
                     desc: "진짜 지옥. 용암이 흐르고 악마들이 야근을 강요함.", 
-                    img: "img/w_common_07.jpg" 
+                    img: "img/w_common_07.webp" 
                 },
                 { 
                     text: "8비트 픽셀 월드", 
                     desc: "모든 것이 네모난 도트로 이루어진 레트로 게임 속.", 
-                    img: "img/w_common_08.jpg" 
+                    img: "img/w_common_08.webp" 
                 },
                 { 
                     text: "용사가 떠난 뒤의 은퇴 마을", 
                     desc: "밭 가는 할아버지가 소드마스터인 고인물 마을.", 
-                    img: "img/w_common_09.jpg" 
+                    img: "img/w_common_09.webp" 
                 },
                 { 
                     text: "심해의 아틀란티스", 
                     desc: "물고기 택시를 타고 다니는 신비로운 수중 도시.", 
-                    img: "img/w_common_10.jpg" 
+                    img: "img/w_common_10.webp" 
                 },
                 { 
                     text: "무인도", 
                     desc: "너구리 빚쟁이는 없지만 직접 집을 지어야 하는 야생.", 
-                    img: "img/w_common_11.jpg" 
+                    img: "img/w_common_11.webp" 
                 },
                 { 
                     text: "스팀펑크 공중 도시", 
                     desc: "거대한 톱니바퀴와 비행선이 떠다니는 하늘의 도시.", 
-                    img: "img/w_common_12.jpg" 
+                    img: "img/w_common_12.webp" 
                 },
                 { 
                     text: "공포의 귀신 아파트", 
                     desc: "층간 소음 대신 귀신 곡소리가 들리는 K-호러 월드.", 
-                    img: "img/w_common_13.jpg" 
+                    img: "img/w_common_13.webp" 
                 },
                 { 
                     text: "오류 난 텍스처 월드", 
                     desc: "하늘이 보라색이고 물리 법칙이 깨진 글리치 세상.", 
-                    img: "img/w_common_14.jpg" 
+                    img: "img/w_common_14.webp" 
                 },
                 { 
                     text: "대머리의 별", 
                     desc: "모든 생명체의 털이 없는 매끈매끈한 눈부신 행성.", 
-                    img: "img/w_common_15.jpg" 
+                    img: "img/w_common_15.webp" 
                 },
                 { 
                     text: "무한 헬스장", 
                     desc: "3대 500 이하는 시민권이 없는 근육의 나라.", 
-                    img: "img/w_common_16.jpg" 
+                    img: "img/w_common_16.webp" 
                 },
                 { 
                     text: "전지적 식물 시점", 
                     desc: "인간이 개미만큼 작아져서 꽃잎에서 자야 하는 숲.", 
-                    img: "img/w_common_17.jpg" 
+                    img: "img/w_common_17.webp" 
                 },
                 { 
                     text: "누아르 탐정 도시", 
                     desc: "세상이 흑백으로 보이고 재즈가 흐르는 비정한 도시.", 
-                    img: "img/w_common_18.jpg" 
+                    img: "img/w_common_18.webp" 
                 },
                 { 
                     text: "우주 정거장", 
                     desc: "무중력 상태로 둥둥 떠다니며 튜브 식량을 먹는 곳.", 
-                    img: "img/w_common_19.jpg" 
+                    img: "img/w_common_19.webp" 
                 },
                 { 
                     text: "나만 빼고 다 회귀자", 
                     desc: "지나가는 행인들도 인생 2회차라 눈치 게임이 치열함.", 
-                    img: "img/w_common_20.jpg" 
+                    img: "img/w_common_20.webp" 
                 }
             ],
             male: [
@@ -208,32 +208,32 @@ const database = {
                 { 
                     text: "매화가 흩날리는 화산", 
                     desc: "24시간 검술 수련만 해야 하는 정통 무협 세계.", 
-                    img: "img/w_male_01.jpg" 
+                    img: "img/w_male_01.webp" 
                 },
                 { 
                     text: "SSS급 헌터 전용 길드룸", 
                     desc: "최고급 호텔보다 화려하고 명품 장비가 가득한 곳.", 
-                    img: "img/w_male_02.jpg" 
+                    img: "img/w_male_02.webp" 
                 },
                 { 
                     text: "삼국지 전장 한복판", 
                     desc: "관우와 장비가 술 마시자고 부르는 상남자들의 세계.", 
-                    img: "img/w_male_03.jpg" 
+                    img: "img/w_male_03.webp" 
                 },
                 { 
                     text: "재벌집 회장실", 
                     desc: "서울이 한눈에 보이고 결재 서류가 쌓여있는 최상층.", 
-                    img: "img/w_male_04.jpg" 
+                    img: "img/w_male_04.webp" 
                 },
                 { 
                     text: "마왕성 옥좌", 
                     desc: "모든 몬스터가 내 발아래 엎드려 충성하는 곳.", 
-                    img: "img/w_male_05.jpg" 
+                    img: "img/w_male_05.webp" 
                 },
                 { 
                     text: "챔피언스 리그 결승전", 
                     desc: "10만 관중이 내 이름을 연호하는 스포츠의 성지.", 
-                    img: "img/w_male_06.jpg" 
+                    img: "img/w_male_06.webp" 
                 }
             ],
             female: [
@@ -241,32 +241,32 @@ const database = {
                 { 
                     text: "북부 대공의 겨울 성", 
                     desc: "검은 제복의 기사들이 나만 바라보는 추운 성.", 
-                    img: "img/w_female_01.jpg" 
+                    img: "img/w_female_01.webp" 
                 },
                 { 
                     text: "황실 장미 정원", 
                     desc: "화려한 드레스와 살벌한 사교계 암투가 벌어지는 곳.", 
-                    img: "img/w_female_02.jpg" 
+                    img: "img/w_female_02.webp" 
                 },
                 { 
                     text: "성녀의 신전", 
                     desc: "신성한 빛이 쏟아지고 모두가 나를 찬양하는 곳.", 
-                    img: "img/w_female_03.jpg" 
+                    img: "img/w_female_03.webp" 
                 },
                 { 
                     text: "후회 남주의 감금실", 
                     desc: "나갈 수는 없지만 밥은 떠먹여 주는 집착의 방.", 
-                    img: "img/w_female_04.jpg" 
+                    img: "img/w_female_04.webp" 
                 },
                 { 
-                    text: "황실 유치원", 
-                    desc: "응애만 해도 황제 아빠가 나라를 바치는 뽀짝한 세상.", 
-                    img: "img/w_female_05.jpg" 
+                    text: "신비로운 동양풍 여우 신당(거처)", 
+                    desc: "홀리면 못 빠져나가는, 위험하고 달콤한 유혹의 공간.", 
+                    img: "img/w_female_05.webp" 
                 },
                 { 
                     text: "로맨스 웹드라마 촬영장", 
                     desc: "본부장님이 결재판 대신 꽃을 들고 있는 사무실.", 
-                    img: "img/w_female_06.jpg" 
+                    img: "img/w_female_06.webp" 
                 }
             ]
         },
@@ -275,77 +275,77 @@ const database = {
         characters: {
             male: [
                 // SSS급 (3)
-                { tier: "SSS", name: "회귀한 황제", desc: "인생 2회차. 제국을 통치하는 절대 권력자.", img: "img/char_m_sss_01.png" },
-                { tier: "SSS", name: "마탑주", desc: "세계 최강의 대마법사. 손가락으로 산을 부숨.", img: "img/char_m_sss_02.png" },
-                { tier: "SSS", name: "천마 (무림맹주)", desc: "무력 9999. 고개를 숙이지 않는 절대자.", img: "img/char_m_sss_03.png" },
+                { tier: "SSS", name: "회귀한 황제", desc: "인생 2회차. 제국을 통치하는 절대 권력자.", img: "img/char_m_sss_01.webp" },
+                { tier: "SSS", name: "마탑주", desc: "세계 최강의 대마법사. 손가락으로 산을 부숨.", img: "img/char_m_sss_02.webp" },
+                { tier: "SSS", name: "천마 (무림맹주)", desc: "무력 9999. 고개를 숙이지 않는 절대자.", img: "img/char_m_sss_03.webp" },
                 // S급 (5)
-                { tier: "S", name: "북부 대공", desc: "흑발 적안. 차가운 도시의 권력자.", img: "img/char_m_s_01.png" },
-                { tier: "S", name: "성자 (교황)", desc: "신의 목소리를 듣는 힐러. 만인의 아이돌.", img: "img/char_m_s_02.png" },
-                { tier: "S", name: "재벌 3세 (상단주)", desc: "돈으로 용사도 고용하는 갑부.", img: "img/char_m_s_03.png" },
-                { tier: "S", name: "천재 소드마스터", desc: "10살에 오러를 깨우친 기사단장.", img: "img/char_m_s_04.png" },
-                { tier: "S", name: "SSS급 헌터", desc: "랭킹 1위. 혼자서 던전 클리어 가능.", img: "img/char_m_s_05.png" },
+                { tier: "S", name: "북부 대공", desc: "흑발 적안. 차가운 도시의 권력자.", img: "img/char_m_s_01.webp" },
+                { tier: "S", name: "성자 (교황)", desc: "신의 목소리를 듣는 힐러. 만인의 아이돌.", img: "img/char_m_s_02.webp" },
+                { tier: "S", name: "재벌 3세 (상단주)", desc: "돈으로 용사도 고용하는 갑부.", img: "img/char_m_s_03.webp" },
+                { tier: "S", name: "천재 소드마스터", desc: "10살에 오러를 깨우친 기사단장.", img: "img/char_m_s_04.webp" },
+                { tier: "S", name: "SSS급 헌터", desc: "랭킹 1위. 혼자서 던전 클리어 가능.", img: "img/char_m_s_05.webp" },
                 // A급 (6)
-                { tier: "A", name: "아카데미 수석", desc: "모든 마법 공식을 꿰고 있는 엘리트.", img: "img/char_m_a_01.png" },
-                { tier: "A", name: "황실 근위대장", desc: "황제를 호위하는 충성심의 상징.", img: "img/char_m_a_02.png" },
-                { tier: "A", name: "천재 연금술사", desc: "폭탄과 포션을 만드는 매드 사이언티스트.", img: "img/char_m_a_03.png" },
-                { tier: "A", name: "숲속의 엘프", desc: "자연을 사랑하는 명사수.", img: "img/char_m_a_04.png" },
-                { tier: "A", name: "전설의 대장장이", desc: "냄비 뚜껑으로 전설의 방패를 만듦.", img: "img/char_m_a_05.png" },
-                { tier: "A", name: "고위 사제", desc: "안정적인 고소득 전문직 힐러.", img: "img/char_m_a_06.png" },
+                { tier: "A", name: "아카데미 수석", desc: "모든 마법 공식을 꿰고 있는 엘리트.", img: "img/char_m_a_01.webp" },
+                { tier: "A", name: "황실 근위대장", desc: "황제를 호위하는 충성심의 상징.", img: "img/char_m_a_02.webp" },
+                { tier: "A", name: "천재 연금술사", desc: "폭탄과 포션을 만드는 매드 사이언티스트.", img: "img/char_m_a_03.webp" },
+                { tier: "A", name: "숲속의 엘프", desc: "자연을 사랑하는 명사수.", img: "img/char_m_a_04.webp" },
+                { tier: "A", name: "전설의 대장장이", desc: "냄비 뚜껑으로 전설의 방패를 만듦.", img: "img/char_m_a_05.webp" },
+                { tier: "A", name: "고위 사제", desc: "안정적인 고소득 전문직 힐러.", img: "img/char_m_a_06.webp" },
                 // B급 (10)
-                { tier: "B", name: "망나니 귀족 영식", desc: "개차반으로 살다 정신 차린 도련님.", img: "img/char_m_b_01.png" },
-                { tier: "B", name: "은퇴한 용사", desc: "만렙 찍고 시골에서 농사짓는 농부.", img: "img/char_m_b_02.png" },
-                { tier: "B", name: "뒷골목 정보 상인", desc: "돈만 주면 비밀을 알려주는 정보통.", img: "img/char_m_b_03.png" },
-                { tier: "B", name: "황실 요리사", desc: "요리로 몬스터도 감동시키는 미미(美味).", img: "img/char_m_b_04.png" },
-                { tier: "B", name: "제국군 행정병", desc: "칼 대신 펜을 든 군인. 야근 중.", img: "img/char_m_b_05.png" },
-                { tier: "B", name: "아이돌 음유시인", desc: "노래로 버프를 거는 슈퍼스타.", img: "img/char_m_b_06.png" },
-                { tier: "B", name: "약초꾼", desc: "산삼 캐러 다니다 강해진 소시민.", img: "img/char_m_b_07.png" },
-                { tier: "B", name: "고양이 수인", desc: "귀와 꼬리가 달림. 귀여움이 무기.", img: "img/char_m_b_08.png" },
-                { tier: "B", name: "해적 선장", desc: "낭만과 보물을 쫓는 바다의 무법자.", img: "img/char_m_b_09.png" },
-                { tier: "B", name: "만능 집사", desc: "주인을 위해선 암살도 서슴지 않음.", img: "img/char_m_b_10.png" },
+                { tier: "B", name: "망나니 귀족 영식", desc: "개차반으로 살다 정신 차린 도련님.", img: "img/char_m_b_01.webp" },
+                { tier: "B", name: "은퇴한 용사", desc: "만렙 찍고 시골에서 농사짓는 농부.", img: "img/char_m_b_02.webp" },
+                { tier: "B", name: "뒷골목 정보 상인", desc: "돈만 주면 비밀을 알려주는 정보통.", img: "img/char_m_b_03.webp" },
+                { tier: "B", name: "황실 요리사", desc: "요리로 몬스터도 감동시키는 미미(美味).", img: "img/char_m_b_04.webp" },
+                { tier: "B", name: "제국군 행정병", desc: "칼 대신 펜을 든 군인. 야근 중.", img: "img/char_m_b_05.webp" },
+                { tier: "B", name: "아이돌 음유시인", desc: "노래로 버프를 거는 슈퍼스타.", img: "img/char_m_b_06.webp" },
+                { tier: "B", name: "약초꾼", desc: "산삼 캐러 다니다 강해진 소시민.", img: "img/char_m_b_07.webp" },
+                { tier: "B", name: "고양이 수인", desc: "귀와 꼬리가 달림. 귀여움이 무기.", img: "img/char_m_b_08.webp" },
+                { tier: "B", name: "해적 선장", desc: "낭만과 보물을 쫓는 바다의 무법자.", img: "img/char_m_b_09.webp" },
+                { tier: "B", name: "만능 집사", desc: "주인을 위해선 암살도 서슴지 않음.", img: "img/char_m_b_10.webp" },
                 // F급 (6) - 공통 이미지 사용 가능
-                { tier: "F", name: "지나가던 행인 1", desc: "대사도 없고 얼굴도 흐릿한 엑스트라.", img: "img/char_f_01.png" },
-                { tier: "F", name: "고블린 막내", desc: "형들에게 구박받는 약한 몬스터.", img: "img/char_f_02.png" },
-                { tier: "F", name: "마왕성 문지기 (해골)", desc: "365일 서 있어야 함. 관절염 앓는 중.", img: "img/char_f_03.png" },
-                { tier: "F", name: "말하는 검 (Ego Sword)", desc: "몸이 없음. 허리에 매달려 수다만 떰.", img: "img/char_f_04.png" },
-                { tier: "F", name: "실험체 702호", desc: "마법사들의 실험실에 갇힌 존재.", img: "img/char_f_05.png" },
-                { tier: "F", name: "그냥 돌멩이", desc: "움직일 수 없음. 그냥 돌임.", img: "img/char_f_06.png" }
+                { tier: "F", name: "지나가던 행인 1", desc: "대사도 없고 얼굴도 흐릿한 엑스트라.", img: "img/char_f_01.webp" },
+                { tier: "F", name: "고블린 막내", desc: "형들에게 구박받는 약한 몬스터.", img: "img/char_f_02.webp" },
+                { tier: "F", name: "마왕성 문지기 (해골)", desc: "365일 서 있어야 함. 관절염 앓는 중.", img: "img/char_f_03.webp" },
+                { tier: "F", name: "말하는 검 (Ego Sword)", desc: "몸이 없음. 허리에 매달려 수다만 떰.", img: "img/char_f_04.webp" },
+                { tier: "F", name: "실험체 702호", desc: "마법사들의 실험실에 갇힌 존재.", img: "img/char_f_05.webp" },
+                { tier: "F", name: "그냥 돌멩이", desc: "움직일 수 없음. 그냥 돌임.", img: "img/char_f_06.webp" }
             ],
             female: [
                 // SSS급 (3)
-                { tier: "SSS", name: "회귀한 여제", desc: "인생 2회차. 제국을 통치하는 절대 권력자.", img: "img/char_f_sss_01.png" },
-                { tier: "SSS", name: "마탑의 주인", desc: "세계 최강의 대마법사. 손가락으로 산을 부숨.", img: "img/char_f_sss_02.png" },
-                { tier: "SSS", name: "천마 (여)", desc: "무력 9999. 고개를 숙이지 않는 절대자.", img: "img/char_f_sss_03.png" },
+                { tier: "SSS", name: "회귀한 여제", desc: "인생 2회차. 제국을 통치하는 절대 권력자.", img: "img/char_f_sss_01.webp" },
+                { tier: "SSS", name: "마탑의 주인", desc: "세계 최강의 대마법사. 손가락으로 산을 부숨.", img: "img/char_f_sss_02.webp" },
+                { tier: "SSS", name: "천마 (여)", desc: "무력 9999. 고개를 숙이지 않는 절대자.", img: "img/char_f_sss_03.webp" },
                 // S급 (5)
-                { tier: "S", name: "북부 대공녀", desc: "흑발 적안. 차가운 도시의 권력자.", img: "img/char_f_s_01.png" },
-                { tier: "S", name: "성녀", desc: "신의 목소리를 듣는 힐러. 만인의 아이돌.", img: "img/char_f_s_02.png" },
-                { tier: "S", name: "재벌 3세 (상단주)", desc: "돈으로 용사도 고용하는 갑부.", img: "img/char_f_s_03.png" },
-                { tier: "S", name: "천재 소드마스터", desc: "10살에 오러를 깨우친 기사단장.", img: "img/char_f_s_04.png" },
-                { tier: "S", name: "SSS급 헌터", desc: "랭킹 1위. 혼자서 던전 클리어 가능.", img: "img/char_f_s_05.png" },
+                { tier: "S", name: "북부 대공녀", desc: "흑발 적안. 차가운 도시의 권력자.", img: "img/char_f_s_01.webp" },
+                { tier: "S", name: "성녀", desc: "신의 목소리를 듣는 힐러. 만인의 아이돌.", img: "img/char_f_s_02.webp" },
+                { tier: "S", name: "재벌 3세 (상단주)", desc: "돈으로 용사도 고용하는 갑부.", img: "img/char_f_s_03.webp" },
+                { tier: "S", name: "천재 소드마스터", desc: "10살에 오러를 깨우친 기사단장.", img: "img/char_f_s_04.webp" },
+                { tier: "S", name: "SSS급 헌터", desc: "랭킹 1위. 혼자서 던전 클리어 가능.", img: "img/char_f_s_05.webp" },
                 // A급 (6)
-                { tier: "A", name: "아카데미 수석", desc: "모든 마법 공식을 꿰고 있는 엘리트.", img: "img/char_f_a_01.png" },
-                { tier: "A", name: "황실 근위대장", desc: "황제를 호위하는 충성심의 상징.", img: "img/char_f_a_02.png" },
-                { tier: "A", name: "천재 연금술사", desc: "폭탄과 포션을 만드는 매드 사이언티스트.", img: "img/char_f_a_03.png" },
-                { tier: "A", name: "숲속의 엘프", desc: "자연을 사랑하는 명사수.", img: "img/char_f_a_04.png" },
-                { tier: "A", name: "전설의 대장장이", desc: "냄비 뚜껑으로 전설의 방패를 만듦.", img: "img/char_f_a_05.png" },
-                { tier: "A", name: "고위 사제", desc: "안정적인 고소득 전문직 힐러.", img: "img/char_f_a_06.png" },
+                { tier: "A", name: "아카데미 수석", desc: "모든 마법 공식을 꿰고 있는 엘리트.", img: "img/char_f_a_01.webp" },
+                { tier: "A", name: "황실 근위대장", desc: "황제를 호위하는 충성심의 상징.", img: "img/char_f_a_02.webp" },
+                { tier: "A", name: "천재 연금술사", desc: "폭탄과 포션을 만드는 매드 사이언티스트.", img: "img/char_f_a_03.webp" },
+                { tier: "A", name: "숲속의 엘프", desc: "자연을 사랑하는 명사수.", img: "img/char_f_a_04.webp" },
+                { tier: "A", name: "전설의 대장장이", desc: "냄비 뚜껑으로 전설의 방패를 만듦.", img: "img/char_f_a_05.webp" },
+                { tier: "A", name: "고위 사제", desc: "안정적인 고소득 전문직 힐러.", img: "img/char_f_a_06.webp" },
                 // B급 (10)
-                { tier: "B", name: "악녀 (개과천선)", desc: "사교계 악녀였으나 정신 차린 영애.", img: "img/char_f_b_01.png" },
-                { tier: "B", name: "은퇴한 용사", desc: "만렙 찍고 시골에서 농사짓는 농부.", img: "img/char_f_b_02.png" },
-                { tier: "B", name: "뒷골목 정보 상인", desc: "돈만 주면 비밀을 알려주는 정보통.", img: "img/char_f_b_03.png" },
-                { tier: "B", name: "황실 요리사", desc: "요리로 몬스터도 감동시키는 미미(美味).", img: "img/char_f_b_04.png" },
-                { tier: "B", name: "제국군 행정병", desc: "칼 대신 펜을 든 군인. 야근 중.", img: "img/char_f_b_05.png" },
-                { tier: "B", name: "아이돌 음유시인", desc: "노래로 버프를 거는 슈퍼스타.", img: "img/char_f_b_06.png" },
-                { tier: "B", name: "약초꾼", desc: "산삼 캐러 다니다 강해진 소시민.", img: "img/char_f_b_07.png" },
-                { tier: "B", name: "고양이 수인", desc: "귀와 꼬리가 달림. 귀여움이 무기.", img: "img/char_f_b_08.png" },
-                { tier: "B", name: "해적 선장", desc: "낭만과 보물을 쫓는 바다의 무법자.", img: "img/char_f_b_09.png" },
-                { tier: "B", name: "만능 메이드", desc: "주인을 위해선 암살도 서슴지 않음.", img: "img/char_f_b_10.png" },
+                { tier: "B", name: "악녀 (개과천선)", desc: "사교계 악녀였으나 정신 차린 영애.", img: "img/char_f_b_01.webp" },
+                { tier: "B", name: "은퇴한 용사", desc: "만렙 찍고 시골에서 농사짓는 농부.", img: "img/char_f_b_02.webp" },
+                { tier: "B", name: "뒷골목 정보 상인", desc: "돈만 주면 비밀을 알려주는 정보통.", img: "img/char_f_b_03.webp" },
+                { tier: "B", name: "황실 요리사", desc: "요리로 몬스터도 감동시키는 미미(美味).", img: "img/char_f_b_04.webp" },
+                { tier: "B", name: "제국군 행정병", desc: "칼 대신 펜을 든 군인. 야근 중.", img: "img/char_f_b_05.webp" },
+                { tier: "B", name: "아이돌 음유시인", desc: "노래로 버프를 거는 슈퍼스타.", img: "img/char_f_b_06.webp" },
+                { tier: "B", name: "약초꾼", desc: "산삼 캐러 다니다 강해진 소시민.", img: "img/char_f_b_07.webp" },
+                { tier: "B", name: "고양이 수인", desc: "귀와 꼬리가 달림. 귀여움이 무기.", img: "img/char_f_b_08.webp" },
+                { tier: "B", name: "해적 선장", desc: "낭만과 보물을 쫓는 바다의 무법자.", img: "img/char_f_b_09.webp" },
+                { tier: "B", name: "만능 메이드", desc: "주인을 위해선 암살도 서슴지 않음.", img: "img/char_f_b_10.webp" },
                 // F급 (6) - 공통 이미지 사용
-                { tier: "F", name: "지나가던 행인 1", desc: "대사도 없고 얼굴도 흐릿한 엑스트라.", img: "img/char_f_01.png" },
-                { tier: "F", name: "고블린 막내", desc: "형들에게 구박받는 약한 몬스터.", img: "img/char_f_02.png" },
-                { tier: "F", name: "마왕성 문지기 (해골)", desc: "365일 서 있어야 함. 관절염 앓는 중.", img: "img/char_f_03.png" },
-                { tier: "F", name: "말하는 검 (Ego Sword)", desc: "몸이 없음. 허리에 매달려 수다만 떰.", img: "img/char_f_04.png" },
-                { tier: "F", name: "실험체 702호", desc: "마법사들의 실험실에 갇힌 존재.", img: "img/char_f_05.png" },
-                { tier: "F", name: "그냥 돌멩이", desc: "움직일 수 없음. 그냥 돌임.", img: "img/char_f_06.png" }
+                { tier: "F", name: "지나가던 행인 1", desc: "대사도 없고 얼굴도 흐릿한 엑스트라.", img: "img/char_f_01.webp" },
+                { tier: "F", name: "고블린 막내", desc: "형들에게 구박받는 약한 몬스터.", img: "img/char_f_02.webp" },
+                { tier: "F", name: "마왕성 문지기 (해골)", desc: "365일 서 있어야 함. 관절염 앓는 중.", img: "img/char_f_03.webp" },
+                { tier: "F", name: "말하는 검 (Ego Sword)", desc: "몸이 없음. 허리에 매달려 수다만 떰.", img: "img/char_f_04.webp" },
+                { tier: "F", name: "실험체 702호", desc: "마법사들의 실험실에 갇힌 존재.", img: "img/char_f_05.webp" },
+                { tier: "F", name: "그냥 돌멩이", desc: "움직일 수 없음. 그냥 돌임.", img: "img/char_f_06.webp" }
             ]
         },
 
@@ -448,26 +448,26 @@ const database = {
 
         // 5. 이세계 파트너 (20종 - 이미지 필요)
         partners: [
-            { name: "흑막 대공자", desc: "나한테 관심 없는 건 네가 처음이라며 집착함.", img: "img/partner_01.png" },
-            { name: "전설의 드래곤", desc: "인간형으로 변신함. 화나면 세계 멸망시킴.", img: "img/partner_02.png" },
-            { name: "헌신적인 성기사", desc: "내 말이라면 독약도 마시는 맹목적 호위무사.", img: "img/partner_03.png" },
-            { name: "천재 마법사", desc: "츤데레. 널 구하러 온 게 아니라고 하면서 구해줌.", img: "img/partner_04.png" },
-            { name: "대부호 물주", desc: "전투력 0. 돈으로 적을 매수해버리는 지갑.", img: "img/partner_05.png" },
-            { name: "구미호 (수인)", desc: "홀리는 매력 만렙. 기를 채워줌(?).", img: "img/partner_06.png" },
-            { name: "말하는 감자", desc: "진짜 감자임. 굴러다니면서 귀여운 소리를 냄.", img: "img/partner_07.png" },
-            { name: "아기 슬라임", desc: "내 머리 위에 얹혀사는 젤리. 청소를 잘함.", img: "img/partner_08.png" },
-            { name: "뱁새 (피닉스)", desc: "본인은 불사조라 주장하지만 그냥 뱁새임.", img: "img/partner_09.png" },
-            { name: "해골 댕댕이", desc: "뼈만 남은 강아지. 꼬리 칠 때 뼈 소리 남.", img: "img/partner_10.png" },
-            { name: "잔소리 요정", desc: "24시간 귀 옆에서 훈수 두는 요정. (음소거 불가)", img: "img/partner_11.png" },
-            { name: "헬창 오크", desc: "싸움보다 단백질 셰이크 섭취가 더 중요한 동료.", img: "img/partner_12.png" },
-            { name: "전애인 (환생)", desc: "하필이면 얘랑 같이 떨어짐. 혐관 로맨스 시작.", img: "img/partner_13.png" }, // (수정)
-            { name: "빚쟁이 고블린", desc: "나한테 받을 돈이 있어서 지옥 끝까지 쫓아옴.", img: "img/partner_14.png" },
-            { name: "중2병 흑염룡", desc: "오른팔을 부여잡고 폼만 잡음. (싸움 못함)", img: "img/partner_15.png" },
-            { name: "꼰대 부장님", desc: "이세계에서도 '나 때는 말이야' 시전 중.", img: "img/partner_16.png" },
-            { name: "무능한 여신", desc: "능력을 잃고 잉여신이 되어 얹혀삼.", img: "img/partner_17.png" },
-            { name: "스피드왜건", desc: "전투는 안 하고 상황 설명만 엄청 빠르게 해줌.", img: "img/partner_18.png" },
-            { name: "투명 인간", desc: "있다고 주장하는데 보이지 않음.", img: "img/partner_19.png" },
-            { name: "나 자신 (도플갱어)", desc: "나랑 똑같이 생김. 서로 네가 가짜라고 싸움.", img: "img/partner_20.png" }
+            { name: "흑막 대공자", desc: "나한테 관심 없는 건 네가 처음이라며 집착함.", img: "img/partner_01.webp" },
+            { name: "전설의 드래곤", desc: "인간형으로 변신함. 화나면 세계 멸망시킴.", img: "img/partner_02.webp" },
+            { name: "헌신적인 성기사", desc: "내 말이라면 독약도 마시는 맹목적 호위무사.", img: "img/partner_03.webp" },
+            { name: "천재 마법사", desc: "츤데레. 널 구하러 온 게 아니라고 하면서 구해줌.", img: "img/partner_04.webp" },
+            { name: "대부호 물주", desc: "전투력 0. 돈으로 적을 매수해버리는 지갑.", img: "img/partner_05.webp" },
+            { name: "구미호 (수인)", desc: "홀리는 매력 만렙. 기를 채워줌(?).", img: "img/partner_06.webp" },
+            { name: "말하는 감자", desc: "진짜 감자임. 굴러다니면서 귀여운 소리를 냄.", img: "img/partner_07.webp" },
+            { name: "아기 슬라임", desc: "내 머리 위에 얹혀사는 젤리. 청소를 잘함.", img: "img/partner_08.webp" },
+            { name: "뱁새 (피닉스)", desc: "본인은 불사조라 주장하지만 그냥 뱁새임.", img: "img/partner_09.webp" },
+            { name: "해골 댕댕이", desc: "뼈만 남은 강아지. 꼬리 칠 때 뼈 소리 남.", img: "img/partner_10.webp" },
+            { name: "잔소리 요정", desc: "24시간 귀 옆에서 훈수 두는 요정. (음소거 불가)", img: "img/partner_11.webp" },
+            { name: "헬창 오크", desc: "싸움보다 단백질 셰이크 섭취가 더 중요한 동료.", img: "img/partner_12.webp" },
+            { name: "전애인 (환생)", desc: "하필이면 얘랑 같이 떨어짐. 혐관 로맨스 시작.", img: "img/partner_13.webp" }, // (수정)
+            { name: "빚쟁이 고블린", desc: "나한테 받을 돈이 있어서 지옥 끝까지 쫓아옴.", img: "img/partner_14.webp" },
+            { name: "중2병 흑염룡", desc: "오른팔을 부여잡고 폼만 잡음. (싸움 못함)", img: "img/partner_15.webp" },
+            { name: "꼰대 부장님", desc: "이세계에서도 '나 때는 말이야' 시전 중.", img: "img/partner_16.webp" },
+            { name: "무능한 여신", desc: "능력을 잃고 잉여신이 되어 얹혀삼.", img: "img/partner_17.webp" },
+            { name: "스피드왜건", desc: "전투는 안 하고 상황 설명만 엄청 빠르게 해줌.", img: "img/partner_18.webp" },
+            { name: "투명 인간", desc: "있다고 주장하는데 보이지 않음.", img: "img/partner_19.webp" },
+            { name: "나 자신 (도플갱어)", desc: "나랑 똑같이 생김. 서로 네가 가짜라고 싸움.", img: "img/partner_20.webp" }
         ],
 
         // 6. 각성 스킬 (30종)
@@ -604,108 +604,108 @@ const database = {
         },
         worlds: {
             common: [
-                { text: "Noob Slime Plains", desc: "Peaceful but boring home of slimes.", img: "img/w_common_01.jpg" },
-                { text: "Cat Empire (Nyantopia)", desc: "Humans are extinct, ruled by giant cats.", img: "img/w_common_02.jpg" },
-                { text: "Magic High School", desc: "Studying magic spells during night study session.", img: "img/w_common_03.jpg" },
-                { text: "Zombie Apocalypse CVS", desc: "Expired rice balls are treasures here.", img: "img/w_common_04.jpg" },
-                { text: "Cyberpunk Neo-Seoul", desc: "Rainy grey city with cyborg deliverymen.", img: "img/w_common_05.jpg" },
-                { text: "Dessert Kingdom", desc: "Chocolate river and cotton candy clouds.", img: "img/w_common_06.jpg" },
-                { text: "Hell of Overtime", desc: "Actual Hell. Demons force you to work overtime.", img: "img/w_common_07.jpg" },
-                { text: "8-bit Pixel World", desc: "Everything is made of retro game blocks.", img: "img/w_common_08.jpg" },
-                { text: "Retired Hero Village", desc: "Farming grandpa is actually a Sword Master.", img: "img/w_common_09.jpg" },
-                { text: "Atlantis of the Deep", desc: "Underwater city with fish taxis.", img: "img/w_common_10.jpg" },
-                { text: "Deserted Island", desc: "No debt collectors, but you must build your own house.", img: "img/w_common_11.jpg" },
-                { text: "Steampunk Sky City", desc: "Flying airships and giant gears.", img: "img/w_common_12.jpg" },
-                { text: "Haunted Apartment", desc: "Horror world filled with ghost noises.", img: "img/w_common_13.jpg" },
-                { text: "Glitch Texture World", desc: "Purple sky and broken physics.", img: "img/w_common_14.jpg" },
-                { text: "Planet Bald", desc: "A shiny planet where no hair exists.", img: "img/w_common_15.jpg" },
-                { text: "Infinite Gym", desc: "Citizenship requires 500kg deadlift.", img: "img/w_common_16.jpg" },
-                { text: "Botanical View", desc: "You are ant-sized in a giant forest.", img: "img/w_common_17.jpg" },
-                { text: "Noir Detective City", desc: "Black and white world with jazz music.", img: "img/w_common_18.jpg" },
-                { text: "Space Station", desc: "Floating in zero gravity, eating tube food.", img: "img/w_common_19.jpg" },
-                { text: "Regressor's City", desc: "Everyone is on their 2nd life. High difficulty.", img: "img/w_common_20.jpg" }
+                { text: "Noob Slime Plains", desc: "Peaceful but boring home of slimes.", img: "img/w_common_01.webp" },
+                { text: "Cat Empire (Nyantopia)", desc: "Humans are extinct, ruled by giant cats.", img: "img/w_common_02.webp" },
+                { text: "Magic High School", desc: "Studying magic spells during night study session.", img: "img/w_common_03.webp" },
+                { text: "Zombie Apocalypse CVS", desc: "Expired rice balls are treasures here.", img: "img/w_common_04.webp" },
+                { text: "Cyberpunk Neo-Seoul", desc: "Rainy grey city with cyborg deliverymen.", img: "img/w_common_05.webp" },
+                { text: "Dessert Kingdom", desc: "Chocolate river and cotton candy clouds.", img: "img/w_common_06.webp" },
+                { text: "Hell of Overtime", desc: "Actual Hell. Demons force you to work overtime.", img: "img/w_common_07.webp" },
+                { text: "8-bit Pixel World", desc: "Everything is made of retro game blocks.", img: "img/w_common_08.webp" },
+                { text: "Retired Hero Village", desc: "Farming grandpa is actually a Sword Master.", img: "img/w_common_09.webp" },
+                { text: "Atlantis of the Deep", desc: "Underwater city with fish taxis.", img: "img/w_common_10.webp" },
+                { text: "Deserted Island", desc: "No debt collectors, but you must build your own house.", img: "img/w_common_11.webp" },
+                { text: "Steampunk Sky City", desc: "Flying airships and giant gears.", img: "img/w_common_12.webp" },
+                { text: "Haunted Apartment", desc: "Horror world filled with ghost noises.", img: "img/w_common_13.webp" },
+                { text: "Glitch Texture World", desc: "Purple sky and broken physics.", img: "img/w_common_14.webp" },
+                { text: "Planet Bald", desc: "A shiny planet where no hair exists.", img: "img/w_common_15.webp" },
+                { text: "Infinite Gym", desc: "Citizenship requires 500kg deadlift.", img: "img/w_common_16.webp" },
+                { text: "Botanical View", desc: "You are ant-sized in a giant forest.", img: "img/w_common_17.webp" },
+                { text: "Noir Detective City", desc: "Black and white world with jazz music.", img: "img/w_common_18.webp" },
+                { text: "Space Station", desc: "Floating in zero gravity, eating tube food.", img: "img/w_common_19.webp" },
+                { text: "Regressor's City", desc: "Everyone is on their 2nd life. High difficulty.", img: "img/w_common_20.webp" }
             ],
             male: [
-                { text: "Plum Blossom Volcano", desc: "Martial arts world. Train 24/7.", img: "img/w_male_01.jpg" },
-                { text: "SSS-Rank Guild Room", desc: "Luxury room filled with legendary gears.", img: "img/w_male_02.jpg" },
-                { text: "Ancient Battlefield", desc: "Generals are calling you for a drink.", img: "img/w_male_03.jpg" },
-                { text: "CEO's Office", desc: "Top floor view with piles of paperwork.", img: "img/w_male_04.jpg" },
-                { text: "Demon King's Throne", desc: "All monsters bow before you.", img: "img/w_male_05.jpg" },
-                { text: "Champions League Final", desc: "100,000 fans chanting your name.", img: "img/w_male_06.jpg" }
+                { text: "Plum Blossom Volcano", desc: "Martial arts world. Train 24/7.", img: "img/w_male_01.webp" },
+                { text: "SSS-Rank Guild Room", desc: "Luxury room filled with legendary gears.", img: "img/w_male_02.webp" },
+                { text: "Ancient Battlefield", desc: "Generals are calling you for a drink.", img: "img/w_male_03.webp" },
+                { text: "CEO's Office", desc: "Top floor view with piles of paperwork.", img: "img/w_male_04.webp" },
+                { text: "Demon King's Throne", desc: "All monsters bow before you.", img: "img/w_male_05.webp" },
+                { text: "Champions League Final", desc: "100,000 fans chanting your name.", img: "img/w_male_06.webp" }
             ],
             female: [
-                { text: "Northern Duke's Castle", desc: "Cold castle where the Duke is obsessed with you.", img: "img/w_female_01.jpg" },
-                { text: "Imperial Rose Garden", desc: "Beautiful dresses and political battles.", img: "img/w_female_02.jpg" },
-                { text: "Saintess Temple", desc: "Holy light shines and everyone praises you.", img: "img/w_female_03.jpg" },
-                { text: "Obsessive Male Lead's Room", desc: "Golden cage, but the food is great.", img: "img/w_female_04.jpg" },
-                { text: "Imperial Kindergarten", desc: "Just say 'Goo-goo' and the Emperor melts.", img: "img/w_female_05.jpg" },
-                { text: "Romance Drama Set", desc: "Director holding flowers instead of papers.", img: "img/w_female_06.jpg" }
+                { text: "Northern Duke's Castle", desc: "Cold castle where the Duke is obsessed with you.", img: "img/w_female_01.webp" },
+                { text: "Imperial Rose Garden", desc: "Beautiful dresses and political battles.", img: "img/w_female_02.webp" },
+                { text: "Saintess Temple", desc: "Holy light shines and everyone praises you.", img: "img/w_female_03.webp" },
+                { text: "Obsessive Male Lead's Room", desc: "Golden cage, but the food is great.", img: "img/w_female_04.webp" },
+                { text: "The Fox Spirit's Secret Chamber", desc: "A dangerously sweet trap; once bewitched, there is no escape.", img: "img/w_female_05.webp" },
+                { text: "Romance Drama Set", desc: "Director holding flowers instead of papers.", img: "img/w_female_06.webp" }
             ]
         },
         characters: {
             male: [
-                { tier: "SSS", name: "Regressed Emperor", desc: "2nd life. Absolute ruler of the empire.", img: "img/char_m_sss_01.png" },
-                { tier: "SSS", name: "Tower Lord", desc: "Greatest Mage. Destroys mountains easily.", img: "img/char_m_sss_02.png" },
-                { tier: "SSS", name: "Heavenly Demon", desc: "Strength 9999. Bows to no one.", img: "img/char_m_sss_03.png" },
-                { tier: "S", name: "Cold Duke of North", desc: "Black hair, red eyes. Powerful noble.", img: "img/char_m_s_01.png" },
-                { tier: "S", name: "Saint (Pope)", desc: "Healer who hears God. Idol of the people.", img: "img/char_m_s_02.png" },
-                { tier: "S", name: "Chaebol Heir", desc: "Super rich. Hires heroes with money.", img: "img/char_m_s_03.png" },
-                { tier: "S", name: "Genius Swordmaster", desc: "Awakened Aura at age 10.", img: "img/char_m_s_04.png" },
-                { tier: "S", name: "SSS-Rank Hunter", desc: "Rank 1. Solos dungeons.", img: "img/char_m_s_05.png" },
-                { tier: "A", name: "Academy Top Student", desc: "Knows every magic formula.", img: "img/char_m_a_01.png" },
-                { tier: "A", name: "Imperial Guard Captain", desc: "Symbol of loyalty and strength.", img: "img/char_m_a_02.png" },
-                { tier: "A", name: "Genius Alchemist", desc: "Mad scientist making bombs and potions.", img: "img/char_m_a_03.png" },
-                { tier: "A", name: "Elf Archer", desc: "Nature lover and sharpshooter.", img: "img/char_m_a_04.png" },
-                { tier: "A", name: "Legendary Blacksmith", desc: "Makes legendary shields from pot lids.", img: "img/char_m_a_05.png" },
-                { tier: "A", name: "High Priest", desc: "High-income professional healer.", img: "img/char_m_a_06.png" },
-                { tier: "B", name: "Prodigal Noble", desc: "Was trash, but now reformed.", img: "img/char_m_b_01.png" },
-                { tier: "B", name: "Retired Hero", desc: "Farming in the countryside.", img: "img/char_m_b_02.png" },
-                { tier: "B", name: "Information Broker", desc: "Sells secrets for money.", img: "img/char_m_b_03.png" },
-                { tier: "B", name: "Imperial Chef", desc: "Cooking so good it tames monsters.", img: "img/char_m_b_04.png" },
-                { tier: "B", name: "Admin Soldier", desc: "Holding a pen instead of a sword. Tired.", img: "img/char_m_b_05.png" },
-                { tier: "B", name: "Idol Bard", desc: "Superstar giving buffs with songs.", img: "img/char_m_b_06.png" },
-                { tier: "B", name: "Herbalist", desc: "Became strong while digging for herbs.", img: "img/char_m_b_07.png" },
-                { tier: "B", name: "Cat-folk", desc: "Has ears and tail. Cuteness is a weapon.", img: "img/char_m_b_08.png" },
-                { tier: "B", name: "Pirate Captain", desc: "Outlaw seeking romance and treasure.", img: "img/char_m_b_09.png" },
-                { tier: "B", name: "Perfect Butler", desc: "Will assassinate for his master.", img: "img/char_m_b_10.png" },
-                { tier: "F", name: "Passerby 1", desc: "No lines, blurry face.", img: "img/char_f_01.png" },
-                { tier: "F", name: "Weak Goblin", desc: "Bullied by older brothers.", img: "img/char_f_02.png" },
-                { tier: "F", name: "Gatekeeper Skeleton", desc: "Standing for 365 days. Has arthritis.", img: "img/char_f_03.png" },
-                { tier: "F", name: "Ego Sword", desc: "No body. Just talking from the waist.", img: "img/char_f_04.png" },
-                { tier: "F", name: "Test Subject 702", desc: "Trapped in a wizard's lab.", img: "img/char_f_05.png" },
-                { tier: "F", name: "Just a Rock", desc: "Cannot move. Just a stone.", img: "img/char_f_06.png" }
+                { tier: "SSS", name: "Regressed Emperor", desc: "2nd life. Absolute ruler of the empire.", img: "img/char_m_sss_01.webp" },
+                { tier: "SSS", name: "Tower Lord", desc: "Greatest Mage. Destroys mountains easily.", img: "img/char_m_sss_02.webp" },
+                { tier: "SSS", name: "Heavenly Demon", desc: "Strength 9999. Bows to no one.", img: "img/char_m_sss_03.webp" },
+                { tier: "S", name: "Cold Duke of North", desc: "Black hair, red eyes. Powerful noble.", img: "img/char_m_s_01.webp" },
+                { tier: "S", name: "Saint (Pope)", desc: "Healer who hears God. Idol of the people.", img: "img/char_m_s_02.webp" },
+                { tier: "S", name: "Chaebol Heir", desc: "Super rich. Hires heroes with money.", img: "img/char_m_s_03.webp" },
+                { tier: "S", name: "Genius Swordmaster", desc: "Awakened Aura at age 10.", img: "img/char_m_s_04.webp" },
+                { tier: "S", name: "SSS-Rank Hunter", desc: "Rank 1. Solos dungeons.", img: "img/char_m_s_05.webp" },
+                { tier: "A", name: "Academy Top Student", desc: "Knows every magic formula.", img: "img/char_m_a_01.webp" },
+                { tier: "A", name: "Imperial Guard Captain", desc: "Symbol of loyalty and strength.", img: "img/char_m_a_02.webp" },
+                { tier: "A", name: "Genius Alchemist", desc: "Mad scientist making bombs and potions.", img: "img/char_m_a_03.webp" },
+                { tier: "A", name: "Elf Archer", desc: "Nature lover and sharpshooter.", img: "img/char_m_a_04.webp" },
+                { tier: "A", name: "Legendary Blacksmith", desc: "Makes legendary shields from pot lids.", img: "img/char_m_a_05.webp" },
+                { tier: "A", name: "High Priest", desc: "High-income professional healer.", img: "img/char_m_a_06.webp" },
+                { tier: "B", name: "Prodigal Noble", desc: "Was trash, but now reformed.", img: "img/char_m_b_01.webp" },
+                { tier: "B", name: "Retired Hero", desc: "Farming in the countryside.", img: "img/char_m_b_02.webp" },
+                { tier: "B", name: "Information Broker", desc: "Sells secrets for money.", img: "img/char_m_b_03.webp" },
+                { tier: "B", name: "Imperial Chef", desc: "Cooking so good it tames monsters.", img: "img/char_m_b_04.webp" },
+                { tier: "B", name: "Admin Soldier", desc: "Holding a pen instead of a sword. Tired.", img: "img/char_m_b_05.webp" },
+                { tier: "B", name: "Idol Bard", desc: "Superstar giving buffs with songs.", img: "img/char_m_b_06.webp" },
+                { tier: "B", name: "Herbalist", desc: "Became strong while digging for herbs.", img: "img/char_m_b_07.webp" },
+                { tier: "B", name: "Cat-folk", desc: "Has ears and tail. Cuteness is a weapon.", img: "img/char_m_b_08.webp" },
+                { tier: "B", name: "Pirate Captain", desc: "Outlaw seeking romance and treasure.", img: "img/char_m_b_09.webp" },
+                { tier: "B", name: "Perfect Butler", desc: "Will assassinate for his master.", img: "img/char_m_b_10.webp" },
+                { tier: "F", name: "Passerby 1", desc: "No lines, blurry face.", img: "img/char_f_01.webp" },
+                { tier: "F", name: "Weak Goblin", desc: "Bullied by older brothers.", img: "img/char_f_02.webp" },
+                { tier: "F", name: "Gatekeeper Skeleton", desc: "Standing for 365 days. Has arthritis.", img: "img/char_f_03.webp" },
+                { tier: "F", name: "Ego Sword", desc: "No body. Just talking from the waist.", img: "img/char_f_04.webp" },
+                { tier: "F", name: "Test Subject 702", desc: "Trapped in a wizard's lab.", img: "img/char_f_05.webp" },
+                { tier: "F", name: "Just a Rock", desc: "Cannot move. Just a stone.", img: "img/char_f_06.webp" }
             ],
             female: [
-                { tier: "SSS", name: "Regressed Empress", desc: "2nd life. Absolute ruler of the empire.", img: "img/char_f_sss_01.png" },
-                { tier: "SSS", name: "Tower Lord (Female)", desc: "Greatest Mage. Destroys mountains easily.", img: "img/char_f_sss_02.png" },
-                { tier: "SSS", name: "Heavenly Demon (Female)", desc: "Strength 9999. Bows to no one.", img: "img/char_f_sss_03.png" },
-                { tier: "S", name: "Duke's Daughter", desc: "Cold beauty of the North.", img: "img/char_f_s_01.png" },
-                { tier: "S", name: "Saintess", desc: "Healer who hears God. Idol of the people.", img: "img/char_f_s_02.png" },
-                { tier: "S", name: "Chaebol Heiress", desc: "Super rich. Hires heroes with money.", img: "img/char_f_s_03.png" },
-                { tier: "S", name: "Genius Swordmaster", desc: "Awakened Aura at age 10.", img: "img/char_f_s_04.png" },
-                { tier: "S", name: "SSS-Rank Hunter", desc: "Rank 1. Solos dungeons.", img: "img/char_f_s_05.png" },
-                { tier: "A", name: "Academy Top Student", desc: "Knows every magic formula.", img: "img/char_f_a_01.png" },
-                { tier: "A", name: "Imperial Guard Captain", desc: "Symbol of loyalty and strength.", img: "img/char_f_a_02.png" },
-                { tier: "A", name: "Genius Alchemist", desc: "Mad scientist making bombs and potions.", img: "img/char_f_a_03.png" },
-                { tier: "A", name: "Elf Archer", desc: "Nature lover and sharpshooter.", img: "img/char_f_a_04.png" },
-                { tier: "A", name: "Legendary Blacksmith", desc: "Makes legendary shields from pot lids.", img: "img/char_f_a_05.png" },
-                { tier: "A", name: "High Priestess", desc: "High-income professional healer.", img: "img/char_f_a_06.png" },
-                { tier: "B", name: "Reformed Villainess", desc: "Was evil, now nice.", img: "img/char_f_b_01.png" },
-                { tier: "B", name: "Retired Hero", desc: "Farming in the countryside.", img: "img/char_f_b_02.png" },
-                { tier: "B", name: "Information Broker", desc: "Sells secrets for money.", img: "img/char_f_b_03.png" },
-                { tier: "B", name: "Imperial Chef", desc: "Cooking so good it tames monsters.", img: "img/char_f_b_04.png" },
-                { tier: "B", name: "Admin Soldier", desc: "Holding a pen instead of a sword. Tired.", img: "img/char_f_b_05.png" },
-                { tier: "B", name: "Idol Bard", desc: "Superstar giving buffs with songs.", img: "img/char_f_b_06.png" },
-                { tier: "B", name: "Herbalist", desc: "Became strong while digging for herbs.", img: "img/char_f_b_07.png" },
-                { tier: "B", name: "Cat-folk", desc: "Has ears and tail. Cuteness is a weapon.", img: "img/char_f_b_08.png" },
-                { tier: "B", name: "Pirate Captain", desc: "Outlaw seeking romance and treasure.", img: "img/char_f_b_09.png" },
-                { tier: "B", name: "Perfect Maid", desc: "Will assassinate for her master.", img: "img/char_f_b_10.png" },
-                { tier: "F", name: "Passerby 1", desc: "No lines, blurry face.", img: "img/char_f_01.png" },
-                { tier: "F", name: "Weak Goblin", desc: "Bullied by older brothers.", img: "img/char_f_02.png" },
-                { tier: "F", name: "Gatekeeper Skeleton", desc: "Standing for 365 days. Has arthritis.", img: "img/char_f_03.png" },
-                { tier: "F", name: "Ego Sword", desc: "No body. Just talking from the waist.", img: "img/char_f_04.png" },
-                { tier: "F", name: "Test Subject 702", desc: "Trapped in a wizard's lab.", img: "img/char_f_05.png" },
-                { tier: "F", name: "Just a Rock", desc: "Cannot move. Just a stone.", img: "img/char_f_06.png" }
+                { tier: "SSS", name: "Regressed Empress", desc: "2nd life. Absolute ruler of the empire.", img: "img/char_f_sss_01.webp" },
+                { tier: "SSS", name: "Tower Lord (Female)", desc: "Greatest Mage. Destroys mountains easily.", img: "img/char_f_sss_02.webp" },
+                { tier: "SSS", name: "Heavenly Demon (Female)", desc: "Strength 9999. Bows to no one.", img: "img/char_f_sss_03.webp" },
+                { tier: "S", name: "Duke's Daughter", desc: "Cold beauty of the North.", img: "img/char_f_s_01.webp" },
+                { tier: "S", name: "Saintess", desc: "Healer who hears God. Idol of the people.", img: "img/char_f_s_02.webp" },
+                { tier: "S", name: "Chaebol Heiress", desc: "Super rich. Hires heroes with money.", img: "img/char_f_s_03.webp" },
+                { tier: "S", name: "Genius Swordmaster", desc: "Awakened Aura at age 10.", img: "img/char_f_s_04.webp" },
+                { tier: "S", name: "SSS-Rank Hunter", desc: "Rank 1. Solos dungeons.", img: "img/char_f_s_05.webp" },
+                { tier: "A", name: "Academy Top Student", desc: "Knows every magic formula.", img: "img/char_f_a_01.webp" },
+                { tier: "A", name: "Imperial Guard Captain", desc: "Symbol of loyalty and strength.", img: "img/char_f_a_02.webp" },
+                { tier: "A", name: "Genius Alchemist", desc: "Mad scientist making bombs and potions.", img: "img/char_f_a_03.webp" },
+                { tier: "A", name: "Elf Archer", desc: "Nature lover and sharpshooter.", img: "img/char_f_a_04.webp" },
+                { tier: "A", name: "Legendary Blacksmith", desc: "Makes legendary shields from pot lids.", img: "img/char_f_a_05.webp" },
+                { tier: "A", name: "High Priestess", desc: "High-income professional healer.", img: "img/char_f_a_06.webp" },
+                { tier: "B", name: "Reformed Villainess", desc: "Was evil, now nice.", img: "img/char_f_b_01.webp" },
+                { tier: "B", name: "Retired Hero", desc: "Farming in the countryside.", img: "img/char_f_b_02.webp" },
+                { tier: "B", name: "Information Broker", desc: "Sells secrets for money.", img: "img/char_f_b_03.webp" },
+                { tier: "B", name: "Imperial Chef", desc: "Cooking so good it tames monsters.", img: "img/char_f_b_04.webp" },
+                { tier: "B", name: "Admin Soldier", desc: "Holding a pen instead of a sword. Tired.", img: "img/char_f_b_05.webp" },
+                { tier: "B", name: "Idol Bard", desc: "Superstar giving buffs with songs.", img: "img/char_f_b_06.webp" },
+                { tier: "B", name: "Herbalist", desc: "Became strong while digging for herbs.", img: "img/char_f_b_07.webp" },
+                { tier: "B", name: "Cat-folk", desc: "Has ears and tail. Cuteness is a weapon.", img: "img/char_f_b_08.webp" },
+                { tier: "B", name: "Pirate Captain", desc: "Outlaw seeking romance and treasure.", img: "img/char_f_b_09.webp" },
+                { tier: "B", name: "Perfect Maid", desc: "Will assassinate for her master.", img: "img/char_f_b_10.webp" },
+                { tier: "F", name: "Passerby 1", desc: "No lines, blurry face.", img: "img/char_f_01.webp" },
+                { tier: "F", name: "Weak Goblin", desc: "Bullied by older brothers.", img: "img/char_f_02.webp" },
+                { tier: "F", name: "Gatekeeper Skeleton", desc: "Standing for 365 days. Has arthritis.", img: "img/char_f_03.webp" },
+                { tier: "F", name: "Ego Sword", desc: "No body. Just talking from the waist.", img: "img/char_f_04.webp" },
+                { tier: "F", name: "Test Subject 702", desc: "Trapped in a wizard's lab.", img: "img/char_f_05.webp" },
+                { tier: "F", name: "Just a Rock", desc: "Cannot move. Just a stone.", img: "img/char_f_06.webp" }
             ]
         },
         skills: [
@@ -793,26 +793,26 @@ const database = {
             "God was bored and spun a roulette."
         ],
         partners: [
-            { name: "Obsessive Duke", desc: "Obsessed because you ignored him.", img: "img/partner_01.png" },
-            { name: "Legendary Dragon", desc: "Human form. Destroys world if angry.", img: "img/partner_02.png" },
-            { name: "Devoted Knight", desc: "Drinks poison if you say so.", img: "img/partner_03.png" },
-            { name: "Genius Wizard", desc: "Tsundere. 'I didn't save you for you.'", img: "img/partner_04.png" },
-            { name: "Rich Sponsor", desc: "Combat power 0. Solves everything with money.", img: "img/partner_05.png" },
-            { name: "Nine-Tailed Fox", desc: "Charming. Steals your energy(?).", img: "img/partner_06.png" },
-            { name: "Talking Potato", desc: "Just a cute potato.", img: "img/partner_07.png" },
-            { name: "Baby Slime", desc: "Living jelly on your head. Good at cleaning.", img: "img/partner_08.png" },
-            { name: "Tiny Bird (Phoenix)", desc: "Claims to be Phoenix, looks like a bird.", img: "img/partner_09.png" },
-            { name: "Skeleton Puppy", desc: "Bony tail makes rattling sounds.", img: "img/partner_10.png" },
-            { name: "Nagging Fairy", desc: "24/7 advice right in your ear.", img: "img/partner_11.png" },
-            { name: "Gym Orc", desc: "Protein shakes are more important than fighting.", img: "img/partner_12.png" },
-            { name: "Ex-Lover (Reborn)", desc: "Awkward romance with ex.", img: "img/partner_13.png" },
-            { name: "Debt Goblin", desc: "Chases you to hell for money.", img: "img/partner_14.png" },
-            { name: "Chuunibyou Dragon", desc: "Holds right arm in pain. Can't fight.", img: "img/partner_15.png" },
-            { name: "Boomer Boss", desc: "Still lecturing 'Back in my days' here.", img: "img/partner_16.png" },
-            { name: "Useless Goddess", desc: "Lost powers, just living off you.", img: "img/partner_17.png" },
-            { name: "Speedwagon", desc: "Explains everything very fast.", img: "img/partner_18.png" },
-            { name: "Invisible Man", desc: "Claims to be there, but invisible.", img: "img/partner_19.png" },
-            { name: "Doppelganger", desc: "Looks like you. Claims you are fake.", img: "img/partner_20.png" }
+            { name: "Obsessive Duke", desc: "Obsessed because you ignored him.", img: "img/partner_01.webp" },
+            { name: "Legendary Dragon", desc: "Human form. Destroys world if angry.", img: "img/partner_02.webp" },
+            { name: "Devoted Knight", desc: "Drinks poison if you say so.", img: "img/partner_03.webp" },
+            { name: "Genius Wizard", desc: "Tsundere. 'I didn't save you for you.'", img: "img/partner_04.webp" },
+            { name: "Rich Sponsor", desc: "Combat power 0. Solves everything with money.", img: "img/partner_05.webp" },
+            { name: "Nine-Tailed Fox", desc: "Charming. Steals your energy(?).", img: "img/partner_06.webp" },
+            { name: "Talking Potato", desc: "Just a cute potato.", img: "img/partner_07.webp" },
+            { name: "Baby Slime", desc: "Living jelly on your head. Good at cleaning.", img: "img/partner_08.webp" },
+            { name: "Tiny Bird (Phoenix)", desc: "Claims to be Phoenix, looks like a bird.", img: "img/partner_09.webp" },
+            { name: "Skeleton Puppy", desc: "Bony tail makes rattling sounds.", img: "img/partner_10.webp" },
+            { name: "Nagging Fairy", desc: "24/7 advice right in your ear.", img: "img/partner_11.webp" },
+            { name: "Gym Orc", desc: "Protein shakes are more important than fighting.", img: "img/partner_12.webp" },
+            { name: "Ex-Lover (Reborn)", desc: "Awkward romance with ex.", img: "img/partner_13.webp" },
+            { name: "Debt Goblin", desc: "Chases you to hell for money.", img: "img/partner_14.webp" },
+            { name: "Chuunibyou Dragon", desc: "Holds right arm in pain. Can't fight.", img: "img/partner_15.webp" },
+            { name: "Boomer Boss", desc: "Still lecturing 'Back in my days' here.", img: "img/partner_16.webp" },
+            { name: "Useless Goddess", desc: "Lost powers, just living off you.", img: "img/partner_17.webp" },
+            { name: "Speedwagon", desc: "Explains everything very fast.", img: "img/partner_18.webp" },
+            { name: "Invisible Man", desc: "Claims to be there, but invisible.", img: "img/partner_19.webp" },
+            { name: "Doppelganger", desc: "Looks like you. Claims you are fake.", img: "img/partner_20.webp" }
         ],
         awakenSkills: [
             { name: "[Protagonist Buff]", desc: "Survive anything and get praised." },
@@ -947,108 +947,108 @@ const database = {
         },
         worlds: {
             common: [
-                { text: "初心者用スライム平原", desc: "平和だけど退屈なスライムの故郷。", img: "img/w_common_01.jpg" },
-                { text: "猫帝国 (ニャントピア)", desc: "人間が絶滅し巨大猫が支配する癒しの世界。", img: "img/w_common_02.jpg" },
-                { text: "魔法高校", desc: "夜間自習しながら呪文を唱える入試地獄。", img: "img/w_common_03.jpg" },
-                { text: "ゾンビ事態1日目のコンビニ", desc: "期限切れのおにぎりが宝物。", img: "img/w_common_04.jpg" },
-                { text: "サイバーパンク・ネオソウル", desc: "雨降る灰色の都市、機械の腕を持つ配達員。", img: "img/w_common_05.jpg" },
-                { text: "デザートキングダム", desc: "チョコの川と綿菓子の雲。", img: "img/w_common_06.jpg" },
-                { text: "地獄の残業", desc: "ガチ地獄。悪魔に残業を強要される。", img: "img/w_common_07.jpg" },
-                { text: "8bitピクセルワールド", desc: "全てがドットでできたレトロゲームの中。", img: "img/w_common_08.jpg" },
-                { text: "引退した勇者の村", desc: "畑仕事をするおじいちゃんが実はソードマスター。", img: "img/w_common_09.jpg" },
-                { text: "深海のアトランティス", desc: "魚タクシーが走る神秘的な水中都市。", img: "img/w_common_10.jpg" },
-                { text: "無人島", desc: "借金取りはいないが家は自力で建てる。", img: "img/w_common_11.jpg" },
-                { text: "スチームパンク空中都市", desc: "巨大な歯車と飛行船が浮かぶ空の都市。", img: "img/w_common_12.jpg" },
-                { text: "恐怖の幽霊マンション", desc: "騒音の代わりに幽霊の鳴き声が聞こえる。", img: "img/w_common_13.jpg" },
-                { text: "バグったテクスチャの世界", desc: "空が紫色で物理法則が壊れた世界。", img: "img/w_common_14.jpg" },
-                { text: "ハゲの星", desc: "毛が存在しない眩しい惑星。", img: "img/w_common_15.jpg" },
-                { text: "無限ジム", desc: "BIG3 500kg以下に人権がない筋肉の国。", img: "img/w_common_16.jpg" },
-                { text: "全知的植物視点", desc: "蟻サイズになって葉っぱで寝る。", img: "img/w_common_17.jpg" },
-                { text: "ノワール探偵都市", desc: "世界が白黒に見えジャズが流れる非情な都市。", img: "img/w_common_18.jpg" },
-                { text: "宇宙ステーション", desc: "無重力でチューブ食を食べる生活。", img: "img/w_common_19.jpg" },
-                { text: "自分以外全員回帰者", desc: "通行人も人生2回目なので心理戦が激しい。", img: "img/w_common_20.jpg" }
+                { text: "初心者用スライム平原", desc: "平和だけど退屈なスライムの故郷。", img: "img/w_common_01.webp" },
+                { text: "猫帝国 (ニャントピア)", desc: "人間が絶滅し巨大猫が支配する癒しの世界。", img: "img/w_common_02.webp" },
+                { text: "魔法高校", desc: "夜間自習しながら呪文を唱える入試地獄。", img: "img/w_common_03.webp" },
+                { text: "ゾンビ事態1日目のコンビニ", desc: "期限切れのおにぎりが宝物。", img: "img/w_common_04.webp" },
+                { text: "サイバーパンク・ネオソウル", desc: "雨降る灰色の都市、機械の腕を持つ配達員。", img: "img/w_common_05.webp" },
+                { text: "デザートキングダム", desc: "チョコの川と綿菓子の雲。", img: "img/w_common_06.webp" },
+                { text: "地獄の残業", desc: "ガチ地獄。悪魔に残業を強要される。", img: "img/w_common_07.webp" },
+                { text: "8bitピクセルワールド", desc: "全てがドットでできたレトロゲームの中。", img: "img/w_common_08.webp" },
+                { text: "引退した勇者の村", desc: "畑仕事をするおじいちゃんが実はソードマスター。", img: "img/w_common_09.webp" },
+                { text: "深海のアトランティス", desc: "魚タクシーが走る神秘的な水中都市。", img: "img/w_common_10.webp" },
+                { text: "無人島", desc: "借金取りはいないが家は自力で建てる。", img: "img/w_common_11.webp" },
+                { text: "スチームパンク空中都市", desc: "巨大な歯車と飛行船が浮かぶ空の都市。", img: "img/w_common_12.webp" },
+                { text: "恐怖の幽霊マンション", desc: "騒音の代わりに幽霊の鳴き声が聞こえる。", img: "img/w_common_13.webp" },
+                { text: "バグったテクスチャの世界", desc: "空が紫色で物理法則が壊れた世界。", img: "img/w_common_14.webp" },
+                { text: "ハゲの星", desc: "毛が存在しない眩しい惑星。", img: "img/w_common_15.webp" },
+                { text: "無限ジム", desc: "BIG3 500kg以下に人権がない筋肉の国。", img: "img/w_common_16.webp" },
+                { text: "全知的植物視点", desc: "蟻サイズになって葉っぱで寝る。", img: "img/w_common_17.webp" },
+                { text: "ノワール探偵都市", desc: "世界が白黒に見えジャズが流れる非情な都市。", img: "img/w_common_18.webp" },
+                { text: "宇宙ステーション", desc: "無重力でチューブ食を食べる生活。", img: "img/w_common_19.webp" },
+                { text: "自分以外全員回帰者", desc: "通行人も人生2回目なので心理戦が激しい。", img: "img/w_common_20.webp" }
             ],
             male: [
-                { text: "梅の花散る火山", desc: "24時間剣術修行のみの正統派武侠世界。", img: "img/w_male_01.jpg" },
-                { text: "SSS級ハンターギルド", desc: "最高級ホテルより豪華で装備が溢れる場所。", img: "img/w_male_02.jpg" },
-                { text: "三国志の戦場", desc: "関羽と張飛が飲みに誘ってくる。", img: "img/w_male_03.jpg" },
-                { text: "財閥会長室", desc: "最上階からの眺めと山積みの書類。", img: "img/w_male_04.jpg" },
-                { text: "魔王城の玉座", desc: "全ての魔物がひれ伏し忠誠を誓う場所。", img: "img/w_male_05.jpg" },
-                { text: "CL決勝戦", desc: "10万の観衆が名前を叫ぶスポーツの聖地。", img: "img/w_male_06.jpg" }
+                { text: "梅の花散る火山", desc: "24時間剣術修行のみの正統派武侠世界。", img: "img/w_male_01.webp" },
+                { text: "SSS級ハンターギルド", desc: "最高級ホテルより豪華で装備が溢れる場所。", img: "img/w_male_02.webp" },
+                { text: "三国志の戦場", desc: "関羽と張飛が飲みに誘ってくる。", img: "img/w_male_03.webp" },
+                { text: "財閥会長室", desc: "最上階からの眺めと山積みの書類。", img: "img/w_male_04.webp" },
+                { text: "魔王城の玉座", desc: "全ての魔物がひれ伏し忠誠を誓う場所。", img: "img/w_male_05.webp" },
+                { text: "CL決勝戦", desc: "10万の観衆が名前を叫ぶスポーツの聖地。", img: "img/w_male_06.webp" }
             ],
             female: [
-                { text: "北部大公の城", desc: "冷徹な大公が執着してくる寒い城。", img: "img/w_female_01.jpg" },
-                { text: "皇室のバラ庭園", desc: "華やかなドレスと殺伐とした社交界の暗闘。", img: "img/w_female_02.jpg" },
-                { text: "聖女の神殿", desc: "神聖な光が降り注ぎ皆に称賛される。", img: "img/w_female_03.jpg" },
-                { text: "後悔男主の監禁部屋", desc: "出られないけどご飯はあーんしてくれる。", img: "img/w_female_04.jpg" },
-                { text: "皇室幼稚園", desc: "バブーと言うだけで皇帝パパが国をくれる。", img: "img/w_female_05.jpg" },
-                { text: "ロマンスドラマ撮影現場", desc: "本部長が書類の代わりに花を持っている。", img: "img/w_female_06.jpg" }
+                { text: "北部大公の城", desc: "冷徹な大公が執着してくる寒い城。", img: "img/w_female_01.webp" },
+                { text: "皇室のバラ庭園", desc: "華やかなドレスと殺伐とした社交界の暗闘。", img: "img/w_female_02.webp" },
+                { text: "聖女の神殿", desc: "神聖な光が降り注ぎ皆に称賛される。", img: "img/w_female_03.webp" },
+                { text: "後悔男主の監禁部屋", desc: "出られないけどご飯はあーんしてくれる。", img: "img/w_female_04.webp" },
+                { text: "狐神の秘密の離れ", desc: "魅了されたら抜け出せない、危険で甘い誘惑の空間。", img: "img/w_female_05.webp" },
+                { text: "ロマンスドラマ撮影現場", desc: "本部長が書類の代わりに花を持っている。", img: "img/w_female_06.webp" }
             ]
         },
         characters: {
             male: [
-                { tier: "SSS", name: "回帰した皇帝", desc: "人生2回目。帝国を統治する絶対権力者。", img: "img/char_m_sss_01.png" },
-                { tier: "SSS", name: "魔塔の主", desc: "世界最強の大魔法使い。", img: "img/char_m_sss_02.png" },
-                { tier: "SSS", name: "天魔 (武林盟主)", desc: "武力9999。頭を下げない絶対者。", img: "img/char_m_sss_03.png" },
-                { tier: "S", name: "北部の冷徹公爵", desc: "黒髪赤眼。冷たい都市の権力者。", img: "img/char_m_s_01.png" },
-                { tier: "S", name: "聖者 (教皇)", desc: "神の声を聞くヒーラー。万人のアイドル。", img: "img/char_m_s_02.png" },
-                { tier: "S", name: "財閥3世", desc: "金で勇者も雇う大富豪。", img: "img/char_m_s_03.png" },
-                { tier: "S", name: "天才ソードマスター", desc: "10歳でオーラに目覚めた騎士団長。", img: "img/char_m_s_04.png" },
-                { tier: "S", name: "SSS級ハンター", desc: "ランク1位。ソロでダンジョン攻略。", img: "img/char_m_s_05.png" },
-                { tier: "A", name: "アカデミー首席", desc: "全ての魔法公式を知るエリート。", img: "img/char_m_a_01.png" },
-                { tier: "A", name: "皇室近衛隊長", desc: "皇帝を護衛する忠誠心の象徴。", img: "img/char_m_a_02.png" },
-                { tier: "A", name: "天才錬金術師", desc: "爆弾とポーションを作るマッドサイエンティスト。", img: "img/char_m_a_03.png" },
-                { tier: "A", name: "エルフの射手", desc: "自然を愛する名手。", img: "img/char_m_a_04.png" },
-                { tier: "A", name: "伝説の鍛冶屋", desc: "鍋の蓋で伝説の盾を作る。", img: "img/char_m_a_05.png" },
-                { tier: "A", name: "高位司祭", desc: "安定した高収入専門職ヒーラー。", img: "img/char_m_a_06.png" },
-                { tier: "B", name: "放蕩貴族", desc: "クズだったが心を入れ替えた。", img: "img/char_m_b_01.png" },
-                { tier: "B", name: "引退した勇者", desc: "カンストして田舎で農業中。", img: "img/char_m_b_02.png" },
-                { tier: "B", name: "裏路地の情報屋", desc: "金さえ払えば王の秘密も売る。", img: "img/char_m_b_03.png" },
-                { tier: "B", name: "皇室料理人", desc: "料理で魔物も感動させる。", img: "img/char_m_b_04.png" },
-                { tier: "B", name: "行政兵", desc: "剣の代わりにペンを持つ軍人。残業中。", img: "img/char_m_b_05.png" },
-                { tier: "B", name: "アイドル吟遊詩人", desc: "歌でバフをかけるスーパースター。", img: "img/char_m_b_06.png" },
-                { tier: "B", name: "薬草採り", desc: "薬草を掘って強くなった小市民。", img: "img/char_m_b_07.png" },
-                { tier: "B", name: "猫獣人", desc: "耳と尻尾がある。可愛さが武器。", img: "img/char_m_b_08.png" },
-                { tier: "B", name: "海賊船長", desc: "ロマンと宝を追う海の無法者。", img: "img/char_m_b_09.png" },
-                { tier: "B", name: "万能執事", desc: "主人のためなら暗殺も厭わない。", img: "img/char_m_b_10.png" },
-                { tier: "F", name: "通りすがりの人1", desc: "セリフもなく顔もぼやけたエキストラ。", img: "img/char_f_01.png" },
-                { tier: "F", name: "ゴブリン", desc: "兄たちにいじめられる弱い魔物。", img: "img/char_f_02.png" },
-                { tier: "F", name: "魔王城の門番", desc: "365日立ちっぱなし。関節痛持ち。", img: "img/char_f_03.png" },
-                { tier: "F", name: "しゃべる剣", desc: "体がない。腰にぶら下がって喋るだけ。", img: "img/char_f_04.png" },
-                { tier: "F", name: "実験体702号", desc: "魔法使いの実験室に閉じ込められた。", img: "img/char_f_05.png" },
-                { tier: "F", name: "ただの石", desc: "動けない。ただの石。", img: "img/char_f_06.png" }
+                { tier: "SSS", name: "回帰した皇帝", desc: "人生2回目。帝国を統治する絶対権力者。", img: "img/char_m_sss_01.webp" },
+                { tier: "SSS", name: "魔塔の主", desc: "世界最強の大魔法使い。", img: "img/char_m_sss_02.webp" },
+                { tier: "SSS", name: "天魔 (武林盟主)", desc: "武力9999。頭を下げない絶対者。", img: "img/char_m_sss_03.webp" },
+                { tier: "S", name: "北部の冷徹公爵", desc: "黒髪赤眼。冷たい都市の権力者。", img: "img/char_m_s_01.webp" },
+                { tier: "S", name: "聖者 (教皇)", desc: "神の声を聞くヒーラー。万人のアイドル。", img: "img/char_m_s_02.webp" },
+                { tier: "S", name: "財閥3世", desc: "金で勇者も雇う大富豪。", img: "img/char_m_s_03.webp" },
+                { tier: "S", name: "天才ソードマスター", desc: "10歳でオーラに目覚めた騎士団長。", img: "img/char_m_s_04.webp" },
+                { tier: "S", name: "SSS級ハンター", desc: "ランク1位。ソロでダンジョン攻略。", img: "img/char_m_s_05.webp" },
+                { tier: "A", name: "アカデミー首席", desc: "全ての魔法公式を知るエリート。", img: "img/char_m_a_01.webp" },
+                { tier: "A", name: "皇室近衛隊長", desc: "皇帝を護衛する忠誠心の象徴。", img: "img/char_m_a_02.webp" },
+                { tier: "A", name: "天才錬金術師", desc: "爆弾とポーションを作るマッドサイエンティスト。", img: "img/char_m_a_03.webp" },
+                { tier: "A", name: "エルフの射手", desc: "自然を愛する名手。", img: "img/char_m_a_04.webp" },
+                { tier: "A", name: "伝説の鍛冶屋", desc: "鍋の蓋で伝説の盾を作る。", img: "img/char_m_a_05.webp" },
+                { tier: "A", name: "高位司祭", desc: "安定した高収入専門職ヒーラー。", img: "img/char_m_a_06.webp" },
+                { tier: "B", name: "放蕩貴族", desc: "クズだったが心を入れ替えた。", img: "img/char_m_b_01.webp" },
+                { tier: "B", name: "引退した勇者", desc: "カンストして田舎で農業中。", img: "img/char_m_b_02.webp" },
+                { tier: "B", name: "裏路地の情報屋", desc: "金さえ払えば王の秘密も売る。", img: "img/char_m_b_03.webp" },
+                { tier: "B", name: "皇室料理人", desc: "料理で魔物も感動させる。", img: "img/char_m_b_04.webp" },
+                { tier: "B", name: "行政兵", desc: "剣の代わりにペンを持つ軍人。残業中。", img: "img/char_m_b_05.webp" },
+                { tier: "B", name: "アイドル吟遊詩人", desc: "歌でバフをかけるスーパースター。", img: "img/char_m_b_06.webp" },
+                { tier: "B", name: "薬草採り", desc: "薬草を掘って強くなった小市民。", img: "img/char_m_b_07.webp" },
+                { tier: "B", name: "猫獣人", desc: "耳と尻尾がある。可愛さが武器。", img: "img/char_m_b_08.webp" },
+                { tier: "B", name: "海賊船長", desc: "ロマンと宝を追う海の無法者。", img: "img/char_m_b_09.webp" },
+                { tier: "B", name: "万能執事", desc: "主人のためなら暗殺も厭わない。", img: "img/char_m_b_10.webp" },
+                { tier: "F", name: "通りすがりの人1", desc: "セリフもなく顔もぼやけたエキストラ。", img: "img/char_f_01.webp" },
+                { tier: "F", name: "ゴブリン", desc: "兄たちにいじめられる弱い魔物。", img: "img/char_f_02.webp" },
+                { tier: "F", name: "魔王城の門番", desc: "365日立ちっぱなし。関節痛持ち。", img: "img/char_f_03.webp" },
+                { tier: "F", name: "しゃべる剣", desc: "体がない。腰にぶら下がって喋るだけ。", img: "img/char_f_04.webp" },
+                { tier: "F", name: "実験体702号", desc: "魔法使いの実験室に閉じ込められた。", img: "img/char_f_05.webp" },
+                { tier: "F", name: "ただの石", desc: "動けない。ただの石。", img: "img/char_f_06.webp" }
             ],
             female: [
-                { tier: "SSS", name: "回帰した女帝", desc: "人生2回目。帝国を統治する絶対権力者。", img: "img/char_f_sss_01.png" },
-                { tier: "SSS", name: "魔塔の主 (女)", desc: "世界最強の大魔法使い。", img: "img/char_f_sss_02.png" },
-                { tier: "SSS", name: "天魔 (女)", desc: "武力9999。頭を下げない絶対者。", img: "img/char_f_sss_03.png" },
-                { tier: "S", name: "北部大公の娘", desc: "黒髪赤眼。冷たい都市の権力者。", img: "img/char_f_s_01.png" },
-                { tier: "S", name: "聖女", desc: "神の声を聞くヒーラー。万人のアイドル。", img: "img/char_f_s_02.png" },
-                { tier: "S", name: "財閥令嬢", desc: "金で勇者も雇う大富豪。", img: "img/char_f_s_03.png" },
-                { tier: "S", name: "天才ソードマスター", desc: "10歳でオーラに目覚めた騎士団長。", img: "img/char_f_s_04.png" },
-                { tier: "S", name: "SSS級ハンター", desc: "ランク1位。ソロでダンジョン攻略。", img: "img/char_f_s_05.png" },
-                { tier: "A", name: "アカデミー首席", desc: "全ての魔法公式を知るエリート。", img: "img/char_f_a_01.png" },
-                { tier: "A", name: "皇室近衛隊長", desc: "皇帝を護衛する忠誠心の象徴。", img: "img/char_f_a_02.png" },
-                { tier: "A", name: "天才錬金術師", desc: "爆弾とポーションを作るマッドサイエンティスト。", img: "img/char_f_a_03.png" },
-                { tier: "A", name: "エルフの射手", desc: "自然を愛する名手。", img: "img/char_f_a_04.png" },
-                { tier: "A", name: "伝説の鍛冶屋", desc: "鍋の蓋で伝説の盾を作る。", img: "img/char_f_a_05.png" },
-                { tier: "A", name: "高位司祭", desc: "安定した高収入専門職ヒーラー。", img: "img/char_f_a_06.png" },
-                { tier: "B", name: "悪役令嬢(改心)", desc: "悪女だったが心を入れ替えた令嬢。", img: "img/char_f_b_01.png" },
-                { tier: "B", name: "引退した勇者", desc: "カンストして田舎で農業中。", img: "img/char_f_b_02.png" },
-                { tier: "B", name: "裏路地の情報屋", desc: "金さえ払えば王の秘密も売る。", img: "img/char_f_b_03.png" },
-                { tier: "B", name: "皇室料理人", desc: "料理で魔物も感動させる。", img: "img/char_f_b_04.png" },
-                { tier: "B", name: "行政兵", desc: "剣の代わりにペンを持つ軍人。残業中。", img: "img/char_f_b_05.png" },
-                { tier: "B", name: "アイドル吟遊詩人", desc: "歌でバフをかけるスーパースター。", img: "img/char_f_b_06.png" },
-                { tier: "B", name: "薬草採り", desc: "薬草を掘って強くなった小市民。", img: "img/char_f_b_07.png" },
-                { tier: "B", name: "猫獣人", desc: "耳と尻尾がある。可愛さが武器。", img: "img/char_f_b_08.png" },
-                { tier: "B", name: "海賊船長", desc: "ロマンと宝を追う海の無法者。", img: "img/char_f_b_09.png" },
-                { tier: "B", name: "万能メイド", desc: "主人のためなら暗殺も厭わない。", img: "img/char_f_b_10.png" },
-                { tier: "F", name: "通りすがりの人1", desc: "セリフもなく顔もぼやけたエキストラ。", img: "img/char_f_01.png" },
-                { tier: "F", name: "ゴブリン", desc: "兄たちにいじめられる弱い魔物。", img: "img/char_f_02.png" },
-                { tier: "F", name: "魔王城の門番", desc: "365日立ちっぱなし。関節痛持ち。", img: "img/char_f_03.png" },
-                { tier: "F", name: "しゃべる剣", desc: "体がない。腰にぶら下がって喋るだけ。", img: "img/char_f_04.png" },
-                { tier: "F", name: "実験体702号", desc: "魔法使いの実験室に閉じ込められた。", img: "img/char_f_05.png" },
-                { tier: "F", name: "ただの石", desc: "動けない。ただの石。", img: "img/char_f_06.png" }
+                { tier: "SSS", name: "回帰した女帝", desc: "人生2回目。帝国を統治する絶対権力者。", img: "img/char_f_sss_01.webp" },
+                { tier: "SSS", name: "魔塔の主 (女)", desc: "世界最強の大魔法使い。", img: "img/char_f_sss_02.webp" },
+                { tier: "SSS", name: "天魔 (女)", desc: "武力9999。頭を下げない絶対者。", img: "img/char_f_sss_03.webp" },
+                { tier: "S", name: "北部大公の娘", desc: "黒髪赤眼。冷たい都市の権力者。", img: "img/char_f_s_01.webp" },
+                { tier: "S", name: "聖女", desc: "神の声を聞くヒーラー。万人のアイドル。", img: "img/char_f_s_02.webp" },
+                { tier: "S", name: "財閥令嬢", desc: "金で勇者も雇う大富豪。", img: "img/char_f_s_03.webp" },
+                { tier: "S", name: "天才ソードマスター", desc: "10歳でオーラに目覚めた騎士団長。", img: "img/char_f_s_04.webp" },
+                { tier: "S", name: "SSS級ハンター", desc: "ランク1位。ソロでダンジョン攻略。", img: "img/char_f_s_05.webp" },
+                { tier: "A", name: "アカデミー首席", desc: "全ての魔法公式を知るエリート。", img: "img/char_f_a_01.webp" },
+                { tier: "A", name: "皇室近衛隊長", desc: "皇帝を護衛する忠誠心の象徴。", img: "img/char_f_a_02.webp" },
+                { tier: "A", name: "天才錬金術師", desc: "爆弾とポーションを作るマッドサイエンティスト。", img: "img/char_f_a_03.webp" },
+                { tier: "A", name: "エルフの射手", desc: "自然を愛する名手。", img: "img/char_f_a_04.webp" },
+                { tier: "A", name: "伝説の鍛冶屋", desc: "鍋の蓋で伝説の盾を作る。", img: "img/char_f_a_05.webp" },
+                { tier: "A", name: "高位司祭", desc: "安定した高収入専門職ヒーラー。", img: "img/char_f_a_06.webp" },
+                { tier: "B", name: "悪役令嬢(改心)", desc: "悪女だったが心を入れ替えた令嬢。", img: "img/char_f_b_01.webp" },
+                { tier: "B", name: "引退した勇者", desc: "カンストして田舎で農業中。", img: "img/char_f_b_02.webp" },
+                { tier: "B", name: "裏路地の情報屋", desc: "金さえ払えば王の秘密も売る。", img: "img/char_f_b_03.webp" },
+                { tier: "B", name: "皇室料理人", desc: "料理で魔物も感動させる。", img: "img/char_f_b_04.webp" },
+                { tier: "B", name: "行政兵", desc: "剣の代わりにペンを持つ軍人。残業中。", img: "img/char_f_b_05.webp" },
+                { tier: "B", name: "アイドル吟遊詩人", desc: "歌でバフをかけるスーパースター。", img: "img/char_f_b_06.webp" },
+                { tier: "B", name: "薬草採り", desc: "薬草を掘って強くなった小市民。", img: "img/char_f_b_07.webp" },
+                { tier: "B", name: "猫獣人", desc: "耳と尻尾がある。可愛さが武器。", img: "img/char_f_b_08.webp" },
+                { tier: "B", name: "海賊船長", desc: "ロマンと宝を追う海の無法者。", img: "img/char_f_b_09.webp" },
+                { tier: "B", name: "万能メイド", desc: "主人のためなら暗殺も厭わない。", img: "img/char_f_b_10.webp" },
+                { tier: "F", name: "通りすがりの人1", desc: "セリフもなく顔もぼやけたエキストラ。", img: "img/char_f_01.webp" },
+                { tier: "F", name: "ゴブリン", desc: "兄たちにいじめられる弱い魔物。", img: "img/char_f_02.webp" },
+                { tier: "F", name: "魔王城の門番", desc: "365日立ちっぱなし。関節痛持ち。", img: "img/char_f_03.webp" },
+                { tier: "F", name: "しゃべる剣", desc: "体がない。腰にぶら下がって喋るだけ。", img: "img/char_f_04.webp" },
+                { tier: "F", name: "実験体702号", desc: "魔法使いの実験室に閉じ込められた。", img: "img/char_f_05.webp" },
+                { tier: "F", name: "ただの石", desc: "動けない。ただの石。", img: "img/char_f_06.webp" }
             ]
         },
         skills: [
@@ -1136,26 +1136,26 @@ const database = {
             "ただ神が退屈でルーレットを回して選ばれた。"
         ],
         partners: [
-            { name: "黒幕の大公", desc: "私に関心がないのは君が初めてだと執着する。", img: "img/partner_01.png" },
-            { name: "伝説のドラゴン", desc: "人間型に変身。怒ると世界を滅ぼす。", img: "img/partner_02.png" },
-            { name: "献身的な聖騎士", desc: "私の言葉なら毒薬も飲む護衛。", img: "img/partner_03.png" },
-            { name: "天才魔法使い", desc: "ツンデレ。「勘違いするな、助けに来たんじゃない」", img: "img/partner_04.png" },
-            { name: "大富豪のスポンサー", desc: "戦闘力0。金で敵を買収する。", img: "img/partner_05.png" },
-            { name: "九尾の狐", desc: "魅力MAX。気を吸い取る(?)。", img: "img/partner_06.png" },
-            { name: "しゃべるジャガイモ", desc: "ただのかわいいジャガイモ。", img: "img/partner_07.png" },
-            { name: "ベビースライム", desc: "頭の上に乗っているゼリー。掃除が得意。", img: "img/partner_08.png" },
-            { name: "エナガ (不死鳥)", desc: "本人はフェニックスだと主張するがただの鳥。", img: "img/partner_09.png" },
-            { name: "骸骨ワンちゃん", desc: "骨だけの犬。尻尾を振ると骨の音がする。", img: "img/partner_10.png" },
-            { name: "小言の妖精", desc: "24時間耳元で説教する。(ミュート不可)", img: "img/partner_11.png" },
-            { name: "筋トレオーク", desc: "戦いよりプロテイン摂取が大事。", img: "img/partner_12.png" },
-            { name: "元恋人 (転生)", desc: "よりによってこいつと一緒に落ちた。気まずい。", img: "img/partner_13.png" },
-            { name: "借金取りゴブリン", desc: "取り立てのために地獄の果てまで追ってくる。", img: "img/partner_14.png" },
-            { name: "中二病の黒炎龍", desc: "右腕を押さえてポーズをとるだけ。(戦えない)", img: "img/partner_15.png" },
-            { name: "説教部長", desc: "異世界でも「俺の若い頃は」を詠唱中。", img: "img/partner_16.png" },
-            { name: "駄女神", desc: "能力を失いただ飯を食う居候。", img: "img/partner_17.png" },
-            { name: "スピードワゴン", desc: "戦闘はせず状況説明だけ超高速でする。", img: "img/partner_18.png" },
-            { name: "透明人間", desc: "いると主張するが見えない。", img: "img/partner_19.png" },
-            { name: "ドッペルゲンガー", desc: "自分と同じ顔。お前が偽物だと喧嘩になる。", img: "img/partner_20.png" }
+            { name: "黒幕の大公", desc: "私に関心がないのは君が初めてだと執着する。", img: "img/partner_01.webp" },
+            { name: "伝説のドラゴン", desc: "人間型に変身。怒ると世界を滅ぼす。", img: "img/partner_02.webp" },
+            { name: "献身的な聖騎士", desc: "私の言葉なら毒薬も飲む護衛。", img: "img/partner_03.webp" },
+            { name: "天才魔法使い", desc: "ツンデレ。「勘違いするな、助けに来たんじゃない」", img: "img/partner_04.webp" },
+            { name: "大富豪のスポンサー", desc: "戦闘力0。金で敵を買収する。", img: "img/partner_05.webp" },
+            { name: "九尾の狐", desc: "魅力MAX。気を吸い取る(?)。", img: "img/partner_06.webp" },
+            { name: "しゃべるジャガイモ", desc: "ただのかわいいジャガイモ。", img: "img/partner_07.webp" },
+            { name: "ベビースライム", desc: "頭の上に乗っているゼリー。掃除が得意。", img: "img/partner_08.webp" },
+            { name: "エナガ (不死鳥)", desc: "本人はフェニックスだと主張するがただの鳥。", img: "img/partner_09.webp" },
+            { name: "骸骨ワンちゃん", desc: "骨だけの犬。尻尾を振ると骨の音がする。", img: "img/partner_10.webp" },
+            { name: "小言の妖精", desc: "24時間耳元で説教する。(ミュート不可)", img: "img/partner_11.webp" },
+            { name: "筋トレオーク", desc: "戦いよりプロテイン摂取が大事。", img: "img/partner_12.webp" },
+            { name: "元恋人 (転生)", desc: "よりによってこいつと一緒に落ちた。気まずい。", img: "img/partner_13.webp" },
+            { name: "借金取りゴブリン", desc: "取り立てのために地獄の果てまで追ってくる。", img: "img/partner_14.webp" },
+            { name: "中二病の黒炎龍", desc: "右腕を押さえてポーズをとるだけ。(戦えない)", img: "img/partner_15.webp" },
+            { name: "説教部長", desc: "異世界でも「俺の若い頃は」を詠唱中。", img: "img/partner_16.webp" },
+            { name: "駄女神", desc: "能力を失いただ飯を食う居候。", img: "img/partner_17.webp" },
+            { name: "スピードワゴン", desc: "戦闘はせず状況説明だけ超高速でする。", img: "img/partner_18.webp" },
+            { name: "透明人間", desc: "いると主張するが見えない。", img: "img/partner_19.webp" },
+            { name: "ドッペルゲンガー", desc: "自分と同じ顔。お前が偽物だと喧嘩になる。", img: "img/partner_20.webp" }
         ],
         awakenSkills: [
             { name: "[主人公補正]", desc: "死にかけても偶然助かり称賛される。" },
