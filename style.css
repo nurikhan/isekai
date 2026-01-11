@@ -397,3 +397,38 @@ input, select {
     background-repeat: no-repeat; /* 반복 금지 필수 */
     background-size: 300% 300%;
 }
+
+/* 1. 사이트 전체 푸터 (화면 하단 고정) */
+.site-footer {
+    position: fixed; /* 스크롤 상관없이 항상 화면 아래 고정 */
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.4); /* 너무 튀지 않게 연하게 */
+    z-index: 100;
+    pointer-events: none; /* 버튼 클릭 방해 안 하게 */
+}
+
+/* 2. 티켓 내부 워터마크 (저장용) */
+.ticket-watermark {
+    text-align: center; /* 가운데 정렬이 더 안정적임 */
+    font-size: 0.6rem;  /* 글씨가 길어졌으니 약간 작게 (0.65 -> 0.6) */
+    color: rgba(255, 255, 255, 0.3); /* 은은하게 (배경에 묻히도록) */
+    margin-top: 15px;   /* 위쪽 여백 */
+    margin-bottom: 5px; /* 아래쪽 여백 */
+    font-family: monospace; /* 타자기 폰트 느낌 유지 */
+    letter-spacing: 0.5px;  /* 자간 살짝 좁힘 */
+    white-space: nowrap;    /* 줄바꿈 없이 한 줄로 나오게 강제 */
+    
+    /* 혹시 모바일에서 화면이 좁아 글자가 넘치면... */
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+/* (옵션) 모바일에서 화면이 작을 때 푸터가 버튼을 가리지 않게 컨테이너 여백 주기 */
+.container {
+    padding-bottom: 40px; 
+}
+
