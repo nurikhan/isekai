@@ -66,19 +66,15 @@ function setLanguage(lang) {
     document.getElementById('ui-guide-a3').innerText = ui.guideA3;
 }
 
-// 1. 초기 실행 (기본 한국어 설정)
+// 1. 초기 실행 (페이지 로드 시 무조건 한국어로 세팅)
 window.onload = function() {
-    // 스트레스 옵션 초기 세팅을 위해 한 번 실행
-    // HTML onclick에서 this 전달을 위해 가짜 이벤트 객체 처리 필요하지만,
-    // 여기선 단순히 초기화만 하므로 직접 호출
-    const ui = database['ko'].ui;
-    const stressSelect = document.getElementById('stress-cause');
-    for (const [key, value] of Object.entries(ui.stressOptions)) {
-        const option = document.createElement('option');
-        option.value = key;
-        option.innerText = value;
-        stressSelect.appendChild(option);
-    }
+    // 기존에 있던 for문 등 복잡한 코드는 다 지우셔도 됩니다.
+    // setLanguage 함수가 모든 텍스트와 옵션을 만들어주기 때문입니다.
+    
+    setLanguage('ko'); 
+    
+    // [확인] 콘솔창에 메시지 띄우기 (테스트용)
+    console.log("Isekai Ticket Agency Loaded! 🚚");
 };
 
 // 2. 성별 선택
