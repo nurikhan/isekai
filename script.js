@@ -70,6 +70,19 @@ function setLanguage(lang) {
         document.getElementById('ui-guide-q3').innerText = ui.guideQ3;
         document.getElementById('ui-guide-a3').innerText = ui.guideA3;
     }
+    // [추가] 가이드 & 세계관 다국어 적용 (innerHTML 사용 필수!)
+    if (document.getElementById('ui-guide-main-title')) {
+        document.getElementById('ui-guide-main-title').innerText = ui.guideSectionTitle;
+        
+        document.getElementById('ui-faq-title').innerText = ui.faqTitle;
+        document.getElementById('ui-faq-content').innerHTML = ui.faqContent; // HTML 태그 적용
+        
+        document.getElementById('ui-lore-title').innerText = ui.loreTitle;
+        document.getElementById('ui-lore-content').innerHTML = ui.loreContent;
+        
+        document.getElementById('ui-rank-title').innerText = ui.rankTitle;
+        document.getElementById('ui-rank-content').innerHTML = ui.rankContent;
+    }
 }
 
 // 1. 초기 실행 (페이지 로드 시 무조건 한국어로 세팅)

@@ -33,19 +33,43 @@ const database = {
             btnRetry: "다시 태어나기 (Re-roll)",
             shareTitle: "이세계 티켓 발급소",
             shareText: "내 이세계 등급은 [RANK]입니다! 당신도 확인해보세요.",
-            
-            // [추가된 부분] FAQ 가이드
-            guideTitle: "🧙‍♂️ 이용 가이드 & 세계관 설정",
-            guideQ1: "Q. 결과는 랜덤인가요?",
-            guideA1: "A. 이름, 성별, 스트레스를 분석해 고유한 운명이 결정됩니다. 같은 정보를 입력하면 항상 같은 결과가 나옵니다.",
-            guideQ2: "Q. 어떤 세계가 있나요?",
-            guideA2: "A. 로맨스 판타지, 무협, 헌터물, 아포칼립스 등 32종 이상의 차원이 준비되어 있습니다.",
-            guideQ3: "Q. 등급 기준은요?",
-            guideA3: "A. 순전히 당신의 '영혼의 운'에 달렸습니다. F급이라도 히든 스킬로 역전할 수 있습니다.",
-            
-            // [추가된 부분] 알림 메시지
             alertName: "이름과 성별을 모두 입력해주세요!",
-            saving: "저장 중..."
+            saving: "저장 중...",
+
+            // [확장판] 가이드 섹션 (애드센스 통과용 풍부한 텍스트)
+            guideSectionTitle: "🧙‍♂️ 이용 가이드 & 세계관 설정",
+            
+            faqTitle: "자주 묻는 질문 (FAQ)",
+            faqContent: `
+                <p><strong>Q. 결과 생성 알고리즘은 어떻게 작동하나요?</strong><br>
+                본 서비스는 단순한 무작위(Random) 추첨 방식을 사용하지 않습니다. 사용자가 입력한 '이름', '성별', '스트레스 요인'을 고유한 해시(Hash) 값으로 변환하여 시드(Seed)를 생성합니다. 따라서 전 세계 어디서든 동일한 정보를 입력하면 항상 100% 동일한 운명이 도출됩니다.</p>
+                <p><strong>Q. 모바일에서 카드가 움직이는 원리가 뭔가요?</strong><br>
+                자이로스코프 센서(Gyroscope) API를 활용했습니다. 스마트폰을 기울이면 기기의 각도를 실시간으로 감지하여, 카드의 홀로그램 빛 반사 위치를 CSS 3D로 렌더링합니다. (iOS는 권한 허용이 필요합니다.)</p>
+                <p><strong>Q. 개인정보는 정말 저장되지 않나요?</strong><br>
+                네, 안심하세요. 본 서비스는 서버가 없는 정적 웹앱(Static Web App)입니다. 모든 연산은 사용자의 브라우저 내에서만 이루어지며, 창을 닫는 즉시 데이터는 영구적으로 소멸됩니다.</p>
+            `,
+
+            loreTitle: "🌏 이세계 차원 도감",
+            loreContent: `
+                <p><strong>[북부 대공의 영지]</strong><br>
+                일 년 내내 눈이 내리는 혹한의 땅입니다. 이곳에 소환되면 90% 확률로 검은 머리에 붉은 눈을 가진 대공과 엮이게 됩니다. 생존 난이도는 B급이지만, 사교계에서의 멘탈 관리가 S급 난이도입니다.</p>
+                <p><strong>[사천당가 (무림)]</strong><br>
+                독과 암기를 다루는 무림 세가입니다. 소환 직후 3일 내에 독 내성을 기르지 못하면 생존하기 어렵습니다. 오직 강한 무공만이 당신의 신분을 증명하는 철저한 약육강식의 세계입니다.</p>
+                <p><strong>[S급 헌터의 던전]</strong><br>
+                겉보기엔 현대와 비슷하지만 몬스터가 출몰합니다. '각성'하지 못한 일반인은 시민권조차 얻기 힘든 능력 지상주의 사회입니다. 상태창(Status)을 확인하는 것이 급선무입니다.</p>
+                <p><strong>[무한 헬스장]</strong><br>
+                '3대 500' 이하는 발언권이 없는 근육의 나라입니다. 마법 대신 물리력이, 지력 대신 근지구력이 모든 것을 결정합니다. 단백질 보충제가 화폐로 통용됩니다.</p>
+            `,
+
+            rankTitle: "📊 랭크 시스템 가이드",
+            rankContent: `
+                <ul>
+                    <li><strong>SSS급 (규격 외):</strong> 혼자서 차원을 파괴하거나 재창조할 수 있는 최강자입니다. 선택받은 극소수(주로 회귀자나 빙의자)만이 도달할 수 있습니다.</li>
+                    <li><strong>S~A급 (핵심 전력):</strong> 국가나 길드의 주요 전력입니다. 타고난 재능이 필수적이며, 엘리트 코스를 밟습니다.</li>
+                    <li><strong>B급 (일반인):</strong> 가장 보편적인 등급입니다. 적당한 능력으로 소시민적인 삶을 영위할 수 있습니다. 가장 행복할 수도 있는 등급입니다.</li>
+                    <li><strong>F급 (최약체):</strong> 슬라임 한 마리 잡기도 버거운 등급입니다. 하지만 실망하지 마십시오. '히든 스킬'의 변수가 가장 강력하게 작용하여, 훗날 세계 최강이 될 잠재력을 가집니다.</li>
+                </ul>
+            `
         },
         // 1. 세계관 (32종: 공통 20 + 남성향 6 + 여성향 6)
         worlds: {
@@ -486,19 +510,43 @@ const database = {
             btnRetry: "Re-roll (Reincarnate)",
             shareTitle: "Isekai Ticket Agency",
             shareText: "My Isekai Rank is [RANK]! Check yours now.",
-
-            // [Added] FAQ Guide
-            guideTitle: "🧙‍♂️ User Guide & Lore",
-            guideQ1: "Q. Is the result random?",
-            guideA1: "A. No. It analyzes your name and stress to decide your fate. Same input yields same result.",
-            guideQ2: "Q. What worlds exist?",
-            guideA2: "A. Over 32 dimensions including Romance Fantasy, Murim, Hunters, and Apocalypse await you.",
-            guideQ3: "Q. How is rank decided?",
-            guideA3: "A. It depends purely on your 'Soul Luck'. Even F-rank can turn the tables with hidden skills.",
-
-            // [Added] Alerts
             alertName: "Please enter your name and gender!",
-            saving: "Saving..."
+            saving: "Saving...",
+
+            // [Extended] Guide Section for AdSense & SEO
+            guideSectionTitle: "🧙‍♂️ User Guide & Lore",
+
+            faqTitle: "Frequently Asked Questions (FAQ)",
+            faqContent: `
+                <p><strong>Q. How does the algorithm work?</strong><br>
+                We do not use random selection. The service generates a unique hash seed based on your Name, Gender, and Stress factors. This ensures that the same input always yields the exact same destiny, anywhere in the world.</p>
+                <p><strong>Q. How does the card move on mobile?</strong><br>
+                We utilize the device's Gyroscope API. By detecting the tilt of your smartphone in real-time, we render the holographic reflection of the card using CSS 3D transforms. (iOS users need to grant permission.)</p>
+                <p><strong>Q. Is my data saved?</strong><br>
+                No, your privacy is safe. This is a serverless Static Web App. All calculations happen only within your browser, and data is permanently deleted the moment you close the window.</p>
+            `,
+
+            loreTitle: "🌏 Isekai Dimension Guide",
+            loreContent: `
+                <p><strong>[Northern Duke's Castle]</strong><br>
+                A land of eternal winter. You have a 90% chance of encountering a Duke with black hair and red eyes. Survival difficulty is B, but social survival is S-tier.</p>
+                <p><strong>[Murim (Poison Clan)]</strong><br>
+                A world of martial arts dominated by poison and hidden weapons. If you don't build poison resistance within 3 days, survival is bleak. Only the strong survive here.</p>
+                <p><strong>[S-Class Hunter's Dungeon]</strong><br>
+                It looks like modern society, but monsters appear from gates. It's a meritocracy where 'Unawakened' civilians struggle to get citizenship. Check your Status Window immediately.</p>
+                <p><strong>[Infinite Gym]</strong><br>
+                A kingdom of muscles where those who can't lift heavy weights have no say. Physical strength replaces magic, and protein shakes are used as currency.</p>
+            `,
+
+            rankTitle: "📊 Rank System Guide",
+            rankContent: `
+                <ul>
+                    <li><strong>SSS (Mythical):</strong> An entity that can destroy or reshape dimensions alone. Only a chosen few (mostly Returners) can reach this tier.</li>
+                    <li><strong>S~A (Elite):</strong> The core power of a nation or guild. Innate talent is essential, and they follow an elite path.</li>
+                    <li><strong>B (Normal):</strong> The most common tier. You can live a peaceful, petty-bourgeois life with moderate abilities. This might be the happiest rank.</li>
+                    <li><strong>F (Novice):</strong> Struggling even against a slime. But don't be disappointed. The 'Hidden Skill' variable is strongest here, giving you the potential to become the strongest later.</li>
+                </ul>
+            `
         },
         worlds: {
             common: [
@@ -778,19 +826,43 @@ const database = {
             btnRetry: "リセマラ (転生し直す)",
             shareTitle: "異世界チケット発券所",
             shareText: "私の異世界ランクは[RANK]です！あなたも確認してみてね。",
-
-            // [Added] FAQ Guide
-            guideTitle: "🧙‍♂️ 利用ガイド & 世界観",
-            guideQ1: "Q. 結果はランダムですか？",
-            guideA1: "A. いいえ。名前とストレスを分析して運命が決まります。同じ情報を入力すれば常に同じ結果が出ます。",
-            guideQ2: "Q. どんな世界がありますか？",
-            guideA2: "A. ロマンスファンタジー、武侠、ハンター物、ポストアポカリプスなど32種類以上の次元があります。",
-            guideQ3: "Q. ランクの基準は？",
-            guideA3: "A. 純粋にあなたの「魂の運」次第です。Fランクでも隠しスキルで逆転可能です。",
-
-            // [Added] Alerts
             alertName: "名前と性別を入力してください！",
-            saving: "保存中..."
+            saving: "保存中...",
+
+            // [拡張版] ガイドセクション (AdSense対応の豊富なテキスト)
+            guideSectionTitle: "🧙‍♂️ 利用ガイド & 世界観設定",
+
+            faqTitle: "よくある質問 (FAQ)",
+            faqContent: `
+                <p><strong>Q. 結果はランダムですか？</strong><br>
+                いいえ。入力された「名前」「性別」「ストレス要因」を独自のハッシュ値に変換し、運命のシード(種)を生成します。そのため、世界中どこでも同じ情報を入力すれば、常に100%同じ運命が導き出されます。</p>
+                <p><strong>Q. スマホでカードが動く仕組みは？</strong><br>
+                ジャイロセンサー(Gyroscope) APIを活用しています。スマホの傾きをリアルタイムで感知し、カードのホログラム反射位置をCSS 3Dでレンダリングしています。(iOSは権限の許可が必要です)</p>
+                <p><strong>Q. 個人情報は保存されますか？</strong><br>
+                いいえ、ご安心ください。本サービスはサーバーを持たない静的ウェブアプリ(Static Web App)です。全ての計算はブラウザ内でのみ行われ、ウィンドウを閉じた瞬間にデータは永久に消滅します。</p>
+            `,
+
+            loreTitle: "🌏 異世界次元図鑑",
+            loreContent: `
+                <p><strong>[北部大公の領地]</strong><br>
+                一年中雪が降る酷寒の地です。ここに召喚されると90%の確率で黒髪赤目の大公と関わることになります。生存難易度はB級ですが、社交界でのメンタル管理はS級難易度です。</p>
+                <p><strong>[四川唐門 (武林)]</strong><br>
+                毒と暗器を操る武林の世家です。召喚直後、3日以内に毒耐性を身につけなければ生き残るのは困難です。強い武功だけが身分を証明する、徹底した弱肉強食の世界です。</p>
+                <p><strong>[S級ハンターのダンジョン]</strong><br>
+                現代と似ていますがモンスターが出没します。「覚醒」できなかった一般人は市民権さえ得にくい能力至上主義社会です。ステータス画面(Status)を確認することが急務です。</p>
+                <p><strong>[無限ジム]</strong><br>
+                「BIG3 500kg」以下は発言権がない筋肉の国です。魔法の代わりに物理力が、知力の代わりに筋持久力が全てを決定します。プロテインが通貨として通用します。</p>
+            `,
+
+            rankTitle: "📊 ランクシステムガイド",
+            rankContent: `
+                <ul>
+                    <li><strong>SSS級 (規格外):</strong> 一人で次元を破壊したり再創造できる最強者です。選ばれたごく一部(主に回帰者や憑依者)だけが到達できます。</li>
+                    <li><strong>S~A級 (核心戦力):</strong> 国家やギルドの主要戦力です。生まれ持った才能が必須で、エリートコースを歩みます。</li>
+                    <li><strong>B級 (一般人):</strong> 最も一般的な等級です。適度な能力で小市民的な生活を営むことができます。一番幸せな等級かもしれません。</li>
+                    <li><strong>F級 (最弱体):</strong> スライム一匹倒すのも精一杯な等級です。しかし失望しないでください。「隠しスキル」の変数が最も強力に作用し、将来世界最強になる潜在力を持っています。</li>
+                </ul>
+            `
         },
         worlds: {
             common: [

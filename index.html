@@ -24,7 +24,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="이세계 환생 티켓 발급소 🎫">
     <meta property="og:description" content="당신이 떨어질 세계와 능력을 확인하세요.">
-    <meta property="og:image" content="https://isekai-9ls.pages.dev/img/og_thumb.jpg">
+    <meta property="og:image" content="https://isekai-ticket.com/img/og_thumb.jpg">
+    <meta property="og:url" content="https://isekai-ticket.com">
+    <link rel="canonical" href="https://isekai-ticket.com">
+
+    <meta property="twitter:domain" content="isekai-ticket.com">
+    <meta property="twitter:url" content="https://isekai-ticket.com">
     
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -70,22 +75,22 @@
                 <button class="submit-btn" id="ui-btn-submit" onclick="issueTicket()">티켓 발급하기</button>
             </div>
 
-            <section class="info-section" style="max-width: 600px; margin: 50px auto; color: #aaa; font-size: 0.8rem; line-height: 1.6; text-align: left; padding: 20px;">
+            <section class="lore-container" style="max-width: 600px; margin: 40px auto; text-align: left; padding: 0 20px;">
                 
-                <h3 id="ui-guide-title" style="color: #fff; border-bottom: 1px solid #444; padding-bottom: 5px;"></h3>
-                
-                <p>
-                    <strong id="ui-guide-q1"></strong><br>
-                    <span id="ui-guide-a1"></span>
-                </p>
-                <p>
-                    <strong id="ui-guide-q2"></strong><br>
-                    <span id="ui-guide-a2"></span>
-                </p>
-                <p>
-                    <strong id="ui-guide-q3"></strong><br>
-                    <span id="ui-guide-a3"></span>
-                </p>
+                <h3 id="ui-guide-main-title" style="color: #fff; border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 20px;"></h3>
+
+                <details class="lore-details" open>
+                    <summary class="lore-summary" id="ui-faq-title">FAQ</summary> <div class="lore-content" id="ui-faq-content"></div> </details>
+
+                <details class="lore-details">
+                    <summary class="lore-summary" id="ui-lore-title">Lore</summary>
+                    <div class="lore-content" id="ui-lore-content"></div>
+                </details>
+
+                <details class="lore-details">
+                    <summary class="lore-summary" id="ui-rank-title">Rank</summary>
+                    <div class="lore-content" id="ui-rank-content"></div>
+                </details>
 
             </section>
         </section>
