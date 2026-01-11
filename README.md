@@ -46,7 +46,7 @@
  ┣ 📜 data.js # 언어별 데이터 (KO/EN/JP) 
  ┗ 📜 README.md # 프로젝트 문서
 
- ## 🚀 설치 및 실행 (How to Run)
+## 🚀 설치 및 실행 (How to Run)
 이 프로젝트는 정적 웹사이트(Static Website)이므로 별도의 서버 설치가 필요 없습니다.
 
 1. 저장소를 클론합니다.
@@ -55,5 +55,5 @@
 
 2. index.html 파일을 브라우저에서 실행하거나, VS Code의 Live Server를 사용하세요.
 
-##📄 License
+## 📄 License
 This project is for entertainment purposes only. Copyright © 2026 Isekai Ticket Agency. All rights reserved.
