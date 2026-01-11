@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isekai Ticket Agency</title> <meta property="og:type" content="website">
+    <meta property="og:title" content="이세계 환생 티켓 발급소 🎫">
+    <meta property="og:description" content="당신이 떨어질 세계와 능력을 확인하세요.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="lang-selector">
+            <button class="lang-btn active" onclick="setLanguage('ko')">
+                <img src="img/flag_kr.png" alt="KR" class="flag-icon"> KO
+            </button>
+            <button class="lang-btn" onclick="setLanguage('en')">
+                <img src="img/flag_us.png" alt="EN" class="flag-icon"> EN
+            </button>
+            <button class="lang-btn" onclick="setLanguage('ja')">
+                <img src="img/flag_jp.png" alt="JP" class="flag-icon"> JP
+            </button>
+        </div>
+
+        <section id="intro-screen">
+            <h1 class="title" id="ui-title">이세계행<br>편도 티켓 발급소</h1>
+            <p class="subtitle" id="ui-subtitle">당신이 떨어질 세계와 능력을 확인하세요.</p>
+            
+            <div class="input-form">
+                <label id="ui-label-name">여행자 이름</label>
+                <input type="text" id="user-name" placeholder="이름을 입력하세요">
+                
+                <label id="ui-label-gender">성별</label>
+                <div class="btn-group">
+                    <button class="gender-btn" id="btn-male" onclick="selectGender('male', this)">남성</button>
+                    <button class="gender-btn" id="btn-female" onclick="selectGender('female', this)">여성</button>
+                </div>
+                <input type="hidden" id="selected-gender">
+
+                <label id="ui-label-stress">현재 가장 큰 스트레스는?</label>
+                <select id="stress-cause">
+                    </select>
+
+                <button class="submit-btn" id="ui-btn-submit" onclick="issueTicket()">티켓 발급하기</button>
+            </div>
+        </section>
+
+        <section id="loading-screen" class="hidden">
+            <div class="truck-icon">🚚💨</div>
+            <p id="loading-text">이세계 트럭 시동 거는 중...</p>
+        </section>
+
+        <section id="result-screen" class="hidden">
+            <div class="ticket-frame">
+                <div class="ticket-header">
+                    <span>ISEKAI ID CARD</span>
+                    <span class="ticket-no">No. 2026-001</span>
+                </div>
+
+                <div class="visual-area">
+                    <div id="bg-layer" class="layer"></div>
+                    <div id="char-layer" class="layer"></div>
+                    <div class="user-photo-placeholder">PHOTO</div>
+                </div>
+
+                <div class="status-window">
+                    <h2 id="res-char-name">캐릭터명</h2>
+                    <div class="rank-badge" id="res-rank">RANK</div>
+                    
+                    <div class="info-row">
+                        <span class="label" id="ui-res-name">이름</span>
+                        <span class="value" id="res-user-name"></span>
+                    </div>
+                    
+                    <hr class="divider">
+
+                    <div class="info-block">
+                        <span class="label" id="ui-res-world">🌏 소환된 세계</span>
+                        <p class="desc" id="res-world"></p>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="label" id="ui-res-skill">⚡ 보유 능력</span>
+                        <div class="skill-box">
+                            <span class="skill-rank" id="res-skill-rank"></span>
+                            <span class="skill-name" id="res-skill-name"></span>
+                        </div>
+                        <p class="desc" id="res-skill-desc"></p>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="label" id="ui-res-reason">📨 소환 사유</span>
+                        <p class="desc reason-text" id="res-reason"></p>
+                    </div>
+                    
+                    <div class="return-prob">
+                        <span id="ui-res-prob">현실 복귀 확률:</span> <span id="prob-value"></span>
+                    </div>
+                </div>
+
+                <div class="hidden-section blur" id="hidden-area">
+                    <div class="locked-msg" id="ui-locked-msg">
+                        🔒<br>결과를 공유하고<br>동료와 히든 스킬 확인하기
+                    </div>
+                    <div class="unlocked-content">
+                        <h3 id="ui-hidden-title">🎁 동반자 & 히든 스킬</h3>
+                        <div class="partner-box">
+                            <div class="partner-img-placeholder">?</div>
+                            <div class="partner-info">
+                                <span class="partner-name" id="res-partner"></span>
+                                <p class="partner-desc desc" id="res-partner-desc"></p>
+                            </div>
+                        </div>
+                        <div class="hidden-skill">
+                            <span class="skill-name" id="res-awake-skill"></span>
+                            <p class="desc" id="res-awake-desc"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="save-btn" id="ui-btn-save" onclick="saveTicket()">📸 티켓 저장하기</button>
+                    <button class="share-btn" id="ui-btn-share" onclick="shareResult()">친구에게 자랑하고 잠금해제</button>
+                    <button class="retry-btn" id="ui-btn-retry" onclick="retry()">다시 태어나기 (Re-roll)</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <audio id="sfx-truck" src="audio/truck_horn.mp3" preload="auto"></audio>
+    <audio id="sfx-result" src="audio/level_up.mp3" preload="auto"></audio>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
