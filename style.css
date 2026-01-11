@@ -356,37 +356,39 @@ input, select {
     z-index: 10;
     border-radius: 15px;
     
-    /* [수정] 더 화려한 무지개빛 홀로그램 */
+/* [수정 1] 투명도를 0.1~0.3 수준으로 대폭 낮춤 (은은하게) */
     background: linear-gradient(
         115deg, 
         transparent 20%,
-        rgba(255, 0, 150, 0.1) 30%,  /* 핑크빛 살짝 */
-        rgba(255, 255, 255, 0.4) 45%, /* 강한 흰 빛 (하이라이트) */
-        rgba(255, 255, 255, 0.6) 50%, /* 가장 밝은 부분 */
-        rgba(0, 200, 255, 0.1) 55%,   /* 푸른빛 살짝 */
+        rgba(255, 255, 255, 0.1) 30%,  /* 아주 연한 빛 */
+        rgba(255, 255, 255, 0.3) 45%,  /* 하이라이트도 너무 세지 않게 */
+        rgba(255, 255, 255, 0.4) 50%,  /* 중심부 */
+        rgba(255, 255, 255, 0.1) 55%, 
         transparent 70%
     );
     
     opacity: 0; /* 평소엔 숨김 */
-    mix-blend-mode: color-dodge; /* [변경] overlay보다 더 쨍하게 빛남 */
+/* [수정 2] color-dodge는 너무 셈. overlay가 글씨를 해치지 않음 */
+    mix-blend-mode: overlay; 
     pointer-events: none;
     transition: opacity 0.5s;
     
-    /* 배경 사이즈를 키워서 움직일 공간 확보 */
-    background-size: 250% 250%; 
+/* [수정 3] 배경을 4배로 키워서 끝부분(격자)이 절대 안 보이게 함 */
+    background-size: 400% 400%;
 }
 
 /* 3. SSS급, S급일 때만 홀로그램 활성화 */
 .ticket-frame.rank-sss .holo-overlay,
 .ticket-frame.rank-s .holo-overlay {
     opacity: 1; /* 보이게 함 */
+    /* 황금빛도 너무 노랗지 않게 은은한 샴페인 골드로 수정 */
     background: linear-gradient(
-        105deg,
-        transparent 20%,
-        rgba(255, 219, 88, 0.4) 40%, /* 황금빛 섞임 */
-        rgba(255, 255, 255, 0.6) 45%,
-        rgba(255, 219, 88, 0.4) 50%,
-        transparent 80%
+        115deg,
+        transparent 25%,
+        rgba(255, 223, 0, 0.15) 40%, /* 연한 골드 */
+        rgba(255, 255, 255, 0.5) 50%, /* 흰색 광택 */
+        rgba(255, 223, 0, 0.15) 60%,
+        transparent 75%
     );
-    background-size: 200% 200%; /* 움직일 수 있게 크게 잡음 */
+    background-size: 400% 400%;
 }
