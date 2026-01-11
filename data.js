@@ -51,14 +51,41 @@ const database = {
 
             loreTitle: "🌏 이세계 차원 도감",
             loreContent: `
-                <p><strong>[북부 대공의 영지]</strong><br>
+                <p><strong>[북부 대공의 영지] (로판)</strong><br>
                 일 년 내내 눈이 내리는 혹한의 땅입니다. 이곳에 소환되면 90% 확률로 검은 머리에 붉은 눈을 가진 대공과 엮이게 됩니다. 생존 난이도는 B급이지만, 사교계에서의 멘탈 관리가 S급 난이도입니다.</p>
-                <p><strong>[사천당가 (무림)]</strong><br>
+                
+                <p><strong>[사천당가] (무림)</strong><br>
                 독과 암기를 다루는 무림 세가입니다. 소환 직후 3일 내에 독 내성을 기르지 못하면 생존하기 어렵습니다. 오직 강한 무공만이 당신의 신분을 증명하는 철저한 약육강식의 세계입니다.</p>
-                <p><strong>[S급 헌터의 던전]</strong><br>
+                
+                <p><strong>[S급 헌터의 던전] (현판)</strong><br>
                 겉보기엔 현대와 비슷하지만 몬스터가 출몰합니다. '각성'하지 못한 일반인은 시민권조차 얻기 힘든 능력 지상주의 사회입니다. 상태창(Status)을 확인하는 것이 급선무입니다.</p>
-                <p><strong>[무한 헬스장]</strong><br>
+                
+                <p><strong>[무한 헬스장] (특수)</strong><br>
                 '3대 500' 이하는 발언권이 없는 근육의 나라입니다. 마법 대신 물리력이, 지력 대신 근지구력이 모든 것을 결정합니다. 단백질 보충제가 화폐로 통용됩니다.</p>
+                
+                <p><strong>[고양이 제국 냥토피아] (힐링)</strong><br>
+                인간이 멸종하고 거대 고양이가 지배하는 세계입니다. 츄르를 바치는 집사로 취직하면 평생 안락한 삶이 보장됩니다. 유일한 위험은 심장마비(귀여움)뿐입니다.</p>
+
+                <p><strong>[매화가 흩날리는 화산] (무협)</strong><br>
+                24시간 수련만 하는 도가 문파입니다. 매화 검법을 배우지 못하면 밥도 주지 않습니다. 사형제 간의 우애가 깊지만, 그만큼 기강도 셉니다.</p>
+
+                <p><strong>[재벌집 회장실] (현대)</strong><br>
+                눈을 떠보니 재벌 3세가 되어있는 세계입니다. 돈으로 해결되지 않는 문제는 없습니다. 다만 경영권 승계 싸움에서 살아남아야 합니다.</p>
+
+                <p><strong>[로맨스 웹드라마 촬영장] (로맨스)</strong><br>
+                모든 상황이 클리셰로 흘러갑니다. 넘어지면 본부장님이 잡아주고, 안경을 벗으면 미녀가 됩니다. 오글거림을 참는 것이 생존의 열쇠입니다.</p>
+
+                <p><strong>[좀비 사태 1일 차 편의점] (아포칼립스)</strong><br>
+                밖은 지옥이지만 편의점 안은 아직 안전합니다. 유통기한 지난 삼각김밥 하나를 두고 목숨을 걸어야 할 수도 있습니다.</p>
+
+                <p><strong>[마왕성 옥좌] (판타지)</strong><br>
+                눈을 떠보니 마왕이 되어버린 세계입니다. 용사들이 매일같이 쳐들어오니 방어 설비를 구축해야 합니다. 부하 몬스터들의 복지를 챙기는 것이 주 업무입니다.</p>
+
+                <p><strong>[사이버펑크 네오 서울] (SF)</strong><br>
+                비 내리는 회색 도시, 기계 팔을 단 배달부가 날아다닙니다. 해킹 능력만 있다면 신이 될 수 있지만, 기업의 노예가 될 확률이 더 높습니다.</p>
+
+                <p><strong>[초보자용 슬라임 평원] (모험)</strong><br>
+                가장 평화롭고 안전한 시작 마을 앞 평원입니다. 슬라임들이 귀엽지만, 너무 지루해서 스스로 모험을 떠나게 만듭니다.</p>
             `,
 
             rankTitle: "📊 랭크 시스템 가이드",
@@ -528,14 +555,41 @@ const database = {
 
             loreTitle: "🌏 Isekai Dimension Guide",
             loreContent: `
-                <p><strong>[Northern Duke's Castle]</strong><br>
-                A land of eternal winter. You have a 90% chance of encountering a Duke with black hair and red eyes. Survival difficulty is B, but social survival is S-tier.</p>
-                <p><strong>[Murim (Poison Clan)]</strong><br>
-                A world of martial arts dominated by poison and hidden weapons. If you don't build poison resistance within 3 days, survival is bleak. Only the strong survive here.</p>
-                <p><strong>[S-Class Hunter's Dungeon]</strong><br>
-                It looks like modern society, but monsters appear from gates. It's a meritocracy where 'Unawakened' civilians struggle to get citizenship. Check your Status Window immediately.</p>
-                <p><strong>[Infinite Gym]</strong><br>
-                A kingdom of muscles where those who can't lift heavy weights have no say. Physical strength replaces magic, and protein shakes are used as currency.</p>
+                <p><strong>[Northern Duke's Castle] (Romance Fantasy)</strong><br>
+                A land of eternal winter. You have a 90% chance of encountering a Duke with black hair and red eyes. Survival difficulty is B, but social survival in the ballroom is S-tier.</p>
+
+                <p><strong>[Murim (Poison Clan)] (Martial Arts)</strong><br>
+                A world dominated by poison and hidden weapons. If you don't build poison resistance within 3 days of summoning, survival is bleak. Only the strong survive in this ruthless world.</p>
+
+                <p><strong>[S-Class Hunter's Dungeon] (Modern Fantasy)</strong><br>
+                It looks like modern society, but monsters appear from gates. It's a meritocracy where 'Unawakened' civilians struggle to get citizenship. Checking your Status Window is the priority.</p>
+
+                <p><strong>[Infinite Gym] (Special)</strong><br>
+                A kingdom of muscles where those who can't lift 500kg have no say. Physical strength replaces magic, and protein shakes are used as currency.</p>
+
+                <p><strong>[Cat Empire (Nyantopia)] (Healing)</strong><br>
+                Humans are extinct, and giant cats rule the world. If you get a job as a butler offering treats, a comfortable life is guaranteed. The only danger is a heart attack from cuteness.</p>
+
+                <p><strong>[Plum Blossom Volcano] (Wuxia)</strong><br>
+                A Taoist sect that trains 24/7. If you don't learn the Plum Blossom Sword Art, you don't eat. The bond between disciples is strong, but discipline is strict.</p>
+
+                <p><strong>[Chaebol's Office] (Modern)</strong><br>
+                You wake up as a 3rd generation Chaebol heir. Money solves everything here. However, you must survive the ruthless battle for management succession.</p>
+
+                <p><strong>[Romance Drama Set] (Romance)</strong><br>
+                Everything follows clichés. If you trip, the CEO catches you; if you take off your glasses, you become beautiful. Enduring the cringe is the key to survival.</p>
+
+                <p><strong>[Zombie Apocalypse CVS] (Apocalypse)</strong><br>
+                Outside is hell, but inside the convenience store is safe (for now). You might have to risk your life for a single expired rice ball.</p>
+
+                <p><strong>[Demon King's Throne] (Fantasy)</strong><br>
+                You woke up as the Demon King. Heroes attack every day, so you must build defenses. Your main job is managing the welfare of your minion monsters.</p>
+
+                <p><strong>[Cyberpunk Neo-Seoul] (Sci-Fi)</strong><br>
+                A rainy grey city where deliverymen with cyborg arms fly around. You can become a god if you can hack, but you are more likely to become a corporate slave.</p>
+
+                <p><strong>[Noob Slime Plains] (Adventure)</strong><br>
+                The most peaceful and safe plains near the starting village. The slimes are cute, but it's so boring that you are forced to leave for an adventure.</p>
             `,
 
             rankTitle: "📊 Rank System Guide",
@@ -844,14 +898,41 @@ const database = {
 
             loreTitle: "🌏 異世界次元図鑑",
             loreContent: `
-                <p><strong>[北部大公の領地]</strong><br>
+                <p><strong>[北部大公の領地] (ロパン)</strong><br>
                 一年中雪が降る酷寒の地です。ここに召喚されると90%の確率で黒髪赤目の大公と関わることになります。生存難易度はB級ですが、社交界でのメンタル管理はS級難易度です。</p>
-                <p><strong>[四川唐門 (武林)]</strong><br>
+                
+                <p><strong>[四川唐門 (武林)] (武侠)</strong><br>
                 毒と暗器を操る武林の世家です。召喚直後、3日以内に毒耐性を身につけなければ生き残るのは困難です。強い武功だけが身分を証明する、徹底した弱肉強食の世界です。</p>
-                <p><strong>[S級ハンターのダンジョン]</strong><br>
+                
+                <p><strong>[S級ハンターのダンジョン] (現代ファンタジー)</strong><br>
                 現代と似ていますがモンスターが出没します。「覚醒」できなかった一般人は市民権さえ得にくい能力至上主義社会です。ステータス画面(Status)を確認することが急務です。</p>
-                <p><strong>[無限ジム]</strong><br>
+                
+                <p><strong>[無限ジム] (特殊)</strong><br>
                 「BIG3 500kg」以下は発言権がない筋肉の国です。魔法の代わりに物理力が、知力の代わりに筋持久力が全てを決定します。プロテインが通貨として通用します。</p>
+
+                <p><strong>[猫帝国ニャントピア] (癒やし)</strong><br>
+                人類が滅亡し、巨大猫が支配する世界です。ちゅ〜るを捧げる執事として就職できれば安楽な生活が保証されます。唯一の危険は心臓麻痺(可愛さ)だけです。</p>
+
+                <p><strong>[梅の花散る火山] (武侠)</strong><br>
+                24時間修行のみ行う道家門派です。梅花剣法を学ばなければご飯ももらえません。兄弟子との絆は深いですが、規律も厳しいです。</p>
+
+                <p><strong>[財閥の会長室] (現代)</strong><br>
+                目覚めると財閥3世になっていた世界です。金で解決できない問題はありません。ただし、経営権継承戦争で生き残らなければなりません。</p>
+
+                <p><strong>[ロマンスドラマ撮影現場] (ロマンス)</strong><br>
+                全ての状況がクリシェ(お約束)通りに進みます。転べば本部長が支えてくれ、眼鏡を外せば美女になります。恥ずかしさに耐えることが生存の鍵です。</p>
+
+                <p><strong>[ゾンビ事態1日目のコンビニ] (ポストアポカリプス)</strong><br>
+                外は地獄ですがコンビニの中はまだ安全です。賞味期限切れのおにぎり一つに命を賭けることになるかもしれません。</p>
+
+                <p><strong>[魔王城の玉座] (ファンタジー)</strong><br>
+                目覚めると魔王になっていた世界です。勇者たちが毎日攻めてくるので防衛設備を構築しなければなりません。部下の魔物たちの福利厚生が主な業務です。</p>
+
+                <p><strong>[サイバーパンク・ネオソウル] (SF)</strong><br>
+                雨降る灰色の都市、機械の腕を持つ配達員が飛び回ります。ハッキング能力があれば神になれますが、企業の社畜になる確率の方が高いです。</p>
+
+                <p><strong>[初心者用スライム平原] (冒険)</strong><br>
+                最も平和で安全な始まりの村の前の平原です。スライムたちは可愛いですが、あまりにも退屈すぎて自ら冒険に出る羽目になります。</p>
             `,
 
             rankTitle: "📊 ランクシステムガイド",
