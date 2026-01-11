@@ -272,18 +272,29 @@ function saveTicket() {
     const isLocked = hiddenArea.classList.contains('blur');
     const hiddenContent = document.querySelector('.unlocked-content');
 
+    // 잠금 상태일 때 내용물 숨기기 (깔끔하게)
     if (isLocked) hiddenContent.style.visibility = 'hidden';
 
+    // 1. 버튼 텍스트 변경
     const originalText = btn.innerText;
     btn.innerText = database[currentLang].ui.saving;
 
+    // ★ [핵심 추가] CSS에 신호 보내기: "지금 저장 중이니까 홀로그램 꺼!"
+    ticketElement.classList.add('saving');
+
+    // 2. 캡처 시작
     html2canvas(ticketElement, { scale: 2, backgroundColor: "#1e1e24", useCORS: true }).then(canvas => {
         const link = document.createElement("a");
         link.download = `isekai_ticket_${new Date().getTime()}.png`;
         link.href = canvas.toDataURL("image/png");
         link.click();
 
+        // 3. 뒷정리
         btn.innerText = "Done! 📁";
+        
+        // ★ [핵심 추가] 캡처 끝났으니 다시 홀로그램 켜기
+        ticketElement.classList.remove('saving');
+
         setTimeout(() => btn.innerText = originalText, 2000);
 
         if (isLocked) hiddenContent.style.visibility = 'visible';
