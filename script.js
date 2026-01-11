@@ -84,6 +84,17 @@ function selectGender(gender, btn) {
 
 // 3. 티켓 발급 메인 함수
 function issueTicket() {
+    // [추가] iOS 13+ 기기에서 자이로 센서 권한 요청
+    if (typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function') {
+        DeviceMotionEvent.requestPermission()
+            .then(response => {
+                if (response === 'granted') {
+                    // 권한 허용됨
+                }
+            })
+            .catch(console.error);
+    }
+    
     const name = document.getElementById('user-name').value.trim();
     const gender = document.getElementById('selected-gender').value;
     const stress = document.getElementById('stress-cause').value;
@@ -348,3 +359,65 @@ function saveTicket() {
         setTimeout(() => btn.innerText = originalText, 2000);
     });
 }
+
+/* 3D 홀로그램 효과 */
+
+const ticket = document.querySelector('.ticket-frame');
+const holo = document.querySelector('.holo-overlay');
+
+// 1. 움직임 계산 함수 (공통)
+function applyEffect(x, y) {
+    // x, y: -1 ~ 1 사이의 값 (중앙이 0)
+    
+    // 회전 각도 제한 (너무 많이 돌면 어지러움)
+    const rotateX = -y * 15; // 상하 회전 (최대 15도)
+    const rotateY = x * 15;  // 좌우 회전 (최대 15도)
+
+    // 카드 회전 적용
+    ticket.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+
+    // 홀로그램 빛 위치 이동 (반대 방향으로 움직여야 입체감 남)
+    // SSS, S급일 때만 배경이 이동하도록 CSS가 세팅되어 있음
+    if (holo) {
+        const bgPosX = 50 + (x * 40);
+        const bgPosY = 50 + (y * 40);
+        holo.style.backgroundPosition = `${bgPosX}% ${bgPosY}%`;
+        holo.style.filter = `brightness(${1 + Math.abs(x)/2})`; // 기울이면 더 밝아짐
+    }
+}
+
+// 2. PC: 마우스 움직임 감지
+document.addEventListener('mousemove', (e) => {
+    // 결과 화면이 보일 때만 작동
+    if (document.getElementById('result-screen').classList.contains('hidden')) return;
+
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    
+    // 마우스 위치를 -1 ~ 1 사이 값으로 변환
+    const x = (e.clientX / width - 0.5) * 2;
+    const y = (e.clientY / height - 0.5) * 2;
+
+    requestAnimationFrame(() => applyEffect(x, y));
+});
+
+// 3. 모바일: 자이로 센서 감지
+window.addEventListener('deviceorientation', (e) => {
+    if (document.getElementById('result-screen').classList.contains('hidden')) return;
+
+    // 베타(앞뒤), 감마(좌우) 기울기
+    // 보통 -90 ~ 90 범위를 가짐
+    let x = e.gamma / 45; // -1 ~ 1 범위로 조정
+    let y = e.beta / 45;
+
+    // 범위 제한 (-1 ~ 1을 넘어가지 않게)
+    if (x > 1) x = 1; if (x < -1) x = -1;
+    if (y > 1) y = 1; if (y < -1) y = -1;
+
+    requestAnimationFrame(() => applyEffect(x, y));
+});
+
+// 4. (중요) 아이폰(iOS 13+) 권한 요청 처리
+// 아이폰은 버튼을 눌러서 '동작 및 방향 접근' 권한을 얻어야 센서가 작동합니다.
+// 따라서 '티켓 발급하기' 버튼을 누를 때 권한을 요청하도록 issueTicket 함수를 수정해야 합니다.
+

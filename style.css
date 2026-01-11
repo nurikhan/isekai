@@ -339,3 +339,49 @@ input, select {
     object-fit: contain;
     /*image-rendering: pixelated; */ /* 픽셀 깨지지 않고 선명하게 */
 }
+
+/* 1. 티켓 프레임에 3D 공간감 부여 */
+.ticket-frame {
+    /* 기존 스타일 유지하면서 아래 속성 추가/수정 */
+    transform-style: preserve-3d; /* 3D 회전 유지 */
+    transform: perspective(1000px); /* 원근감 깊이 */
+    transition: transform 0.1s ease-out; /* 부드러운 움직임 */
+    will-change: transform; /* 성능 최적화 */
+}
+
+/* 2. 홀로그램 오버레이 (빛 반사층) */
+.holo-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10; /* 내용물보다 위에 뜸 */
+    border-radius: 15px; /* 티켓 둥글기와 맞춤 */
+    
+    /* 무지개빛 홀로그램 그라데이션 */
+    background: linear-gradient(
+        135deg, 
+        rgba(255,255,255,0) 30%, 
+        rgba(255,255,255,0.4) 40%, 
+        rgba(255,255,255,0) 50%, 
+        rgba(255,255,255,0.4) 60%, 
+        rgba(255,255,255,0) 70%
+    );
+    opacity: 0; /* 평소엔 안 보임 */
+    mix-blend-mode: overlay; /* 아래 이미지와 자연스럽게 섞임 (lighten이나 color-dodge도 좋음) */
+    pointer-events: none; /* 클릭 방해 안 하게 설정 */
+    transition: opacity 0.5s;
+}
+
+/* 3. SSS급, S급일 때만 홀로그램 활성화 */
+.ticket-frame.rank-sss .holo-overlay,
+.ticket-frame.rank-s .holo-overlay {
+    opacity: 1; /* 보이게 함 */
+    background: linear-gradient(
+        105deg,
+        transparent 20%,
+        rgba(255, 219, 88, 0.4) 40%, /* 황금빛 섞임 */
+        rgba(255, 255, 255, 0.6) 45%,
+        rgba(255, 219, 88, 0.4) 50%,
+        transparent 80%
+    );
+    background-size: 200% 200%; /* 움직일 수 있게 크게 잡음 */
+}
