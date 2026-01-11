@@ -400,15 +400,19 @@ input, select {
 
 /* 1. 사이트 전체 푸터 (화면 하단 고정) */
 .site-footer {
-    position: fixed; /* 스크롤 상관없이 항상 화면 아래 고정 */
-    bottom: 10px;
-    left: 0;
+    /* position: fixed;  <-- 이거 때문에 겹치는 거라 삭제! */
+    position: relative; /* 흐름에 맞게 배치 */
+    
     width: 100%;
     text-align: center;
     font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.4); /* 너무 튀지 않게 연하게 */
+    color: rgba(255, 255, 255, 0.4);
+    
+    /* 여백 확보: 위쪽은 띄우고, 아래쪽도 여유 있게 */
+    margin-top: 40px; 
+    padding-bottom: 30px; 
+    
     z-index: 100;
-    pointer-events: none; /* 버튼 클릭 방해 안 하게 */
 }
 
 /* 2. 티켓 내부 워터마크 (저장용) */

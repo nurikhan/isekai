@@ -338,11 +338,22 @@ function retry() {
 // 티켓 이미지로 저장하기
 function saveTicket() {
     const ticketElement = document.querySelector(".ticket-frame");
+    const btn = document.getElementById("ui-btn-save");
+    
+    // [보안 패치] 캡처 시 히든 내용이 비치는 문제 해결
+    // 1. 현재 잠금 상태인지 확인
+    const hiddenArea = document.getElementById('hidden-area');
+    const isLocked = hiddenArea.classList.contains('blur');
+    const hiddenContent = document.querySelector('.unlocked-content');
 
-    // 저장 중이라는 표시 (버튼 글씨 변경 등)
-    const btn = document.querySelector(".save-btn");
+    // 2. 잠겨있다면, 캡처 직전에 내용을 아예 투명하게(visibility: hidden) 만들어버림
+    if (isLocked) {
+        hiddenContent.style.visibility = 'hidden';
+    }
+
+    // 저장 중 표시
     const originalText = btn.innerText;
-    btn.innerText = "이미지 생성 중...";
+    btn.innerText = "Processing..."; // 다국어 처리 전 임시 텍스트 (또는 ui.btnSave + "...")
 
     html2canvas(ticketElement, {
         scale: 2, // 고화질로 저장
@@ -355,8 +366,13 @@ function saveTicket() {
         link.href = canvas.toDataURL("image/png");
         link.click();
 
-        btn.innerText = "저장 완료! 📁";
+        btn.innerText = "Done! 📁";
         setTimeout(() => btn.innerText = originalText, 2000);
+
+        // 3. [복구] 캡처가 끝나면 다시 보이게 원상복구 (사용자 눈엔 너무 빨라서 안 보임)
+        if (isLocked) {
+            hiddenContent.style.visibility = 'visible';
+        }
     });
 }
 
