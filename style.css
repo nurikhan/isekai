@@ -353,22 +353,27 @@ input, select {
 .holo-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 10; /* 내용물보다 위에 뜸 */
-    border-radius: 15px; /* 티켓 둥글기와 맞춤 */
+    z-index: 10;
+    border-radius: 15px;
     
-    /* 무지개빛 홀로그램 그라데이션 */
+    /* [수정] 더 화려한 무지개빛 홀로그램 */
     background: linear-gradient(
-        135deg, 
-        rgba(255,255,255,0) 30%, 
-        rgba(255,255,255,0.4) 40%, 
-        rgba(255,255,255,0) 50%, 
-        rgba(255,255,255,0.4) 60%, 
-        rgba(255,255,255,0) 70%
+        115deg, 
+        transparent 20%,
+        rgba(255, 0, 150, 0.1) 30%,  /* 핑크빛 살짝 */
+        rgba(255, 255, 255, 0.4) 45%, /* 강한 흰 빛 (하이라이트) */
+        rgba(255, 255, 255, 0.6) 50%, /* 가장 밝은 부분 */
+        rgba(0, 200, 255, 0.1) 55%,   /* 푸른빛 살짝 */
+        transparent 70%
     );
-    opacity: 0; /* 평소엔 안 보임 */
-    mix-blend-mode: overlay; /* 아래 이미지와 자연스럽게 섞임 (lighten이나 color-dodge도 좋음) */
-    pointer-events: none; /* 클릭 방해 안 하게 설정 */
+    
+    opacity: 0; /* 평소엔 숨김 */
+    mix-blend-mode: color-dodge; /* [변경] overlay보다 더 쨍하게 빛남 */
+    pointer-events: none;
     transition: opacity 0.5s;
+    
+    /* 배경 사이즈를 키워서 움직일 공간 확보 */
+    background-size: 250% 250%; 
 }
 
 /* 3. SSS급, S급일 때만 홀로그램 활성화 */

@@ -94,7 +94,7 @@ function issueTicket() {
             })
             .catch(console.error);
     }
-    
+
     const name = document.getElementById('user-name').value.trim();
     const gender = document.getElementById('selected-gender').value;
     const stress = document.getElementById('stress-cause').value;
@@ -367,22 +367,23 @@ const holo = document.querySelector('.holo-overlay');
 
 // 1. 움직임 계산 함수 (공통)
 function applyEffect(x, y) {
-    // x, y: -1 ~ 1 사이의 값 (중앙이 0)
-    
-    // 회전 각도 제한 (너무 많이 돌면 어지러움)
-    const rotateX = -y * 15; // 상하 회전 (최대 15도)
-    const rotateY = x * 15;  // 좌우 회전 (최대 15도)
+    // 1. 카드 회전(3D 왜곡) 효과는 삭제! (사용자 요청 반영)
+    // ticket.style.transform = ... (이 부분 제거)
+    // 대신 미세한 스케일링만 둬서 '살아있는' 느낌만 줌 (선택 사항)
+    // ticket.style.transform = `scale3d(1.0, 1.0, 1.0)`; 
 
-    // 카드 회전 적용
-    ticket.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
-
-    // 홀로그램 빛 위치 이동 (반대 방향으로 움직여야 입체감 남)
-    // SSS, S급일 때만 배경이 이동하도록 CSS가 세팅되어 있음
-    if (holo) {
-        const bgPosX = 50 + (x * 40);
-        const bgPosY = 50 + (y * 40);
+    // 2. 홀로그램 빛 반사 효과만 이동
+    if (holo && getComputedStyle(holo).opacity !== '0') {
+        // x, y 값(-1 ~ 1)을 퍼센트(%)로 변환
+        // 중앙(50%)을 기준으로 빛이 넓게 움직이도록 범위 설정
+        const bgPosX = 50 + (x * 60); // 좌우로 60% 정도 더 움직임
+        const bgPosY = 50 + (y * 60); // 상하로 60% 정도 더 움직임
+        
+        // 홀로그램 위치 이동
         holo.style.backgroundPosition = `${bgPosX}% ${bgPosY}%`;
-        holo.style.filter = `brightness(${1 + Math.abs(x)/2})`; // 기울이면 더 밝아짐
+        
+        // (옵션) 폰을 많이 기울이면 빛이 더 강해짐
+        // holo.style.filter = `brightness(${100 + Math.abs(x * 30)}%)`; 
     }
 }
 
