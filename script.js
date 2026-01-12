@@ -201,7 +201,12 @@ function calculateResult(name, gender, stress) {
     if (world.img) document.getElementById('bg-layer').style.backgroundImage = `url('${world.img}')`;
     else document.getElementById('bg-layer').style.background = '#333';
 
-    if (character.img) document.getElementById('char-layer').style.backgroundImage = `url('${character.img}')`;
+    if (character.img) {
+        const charLayer = document.getElementById('char-layer');
+        charLayer.innerHTML = `<img src="${character.img}" alt="${character.name}">`;
+    } else {
+        document.getElementById('char-layer').innerHTML = '';
+    }
     
     if (partner.img) {
         const partnerDiv = document.querySelector('.partner-img-placeholder');
