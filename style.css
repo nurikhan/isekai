@@ -174,8 +174,8 @@ input, select {
     transform: translateX(-50%); /* 정확히 중앙으로 이동 */
     
     width: auto;        /* 너비는 비율에 맞게 */
-    height: 90%;        /* 배경 높이의 90%까지 키움 (반신샷 크기 확보) */
-    max-width: 80%;     /* 너무 뚱뚱해지지 않게 제한 */
+    height: 75%;        /* 배경 높이의 75%까지 키움 (반신샷 크기 확보) */
+    max-width: 70%;     /* 너무 뚱뚱해지지 않게 제한 */
     
     background: transparent; /* 검은 배경 제거 (투명하게) */
     border: none;       /* 흰색 테두리 제거 */
@@ -478,3 +478,7 @@ input, select {
     mix-blend-mode: normal !important;
 }
 
+/* 티켓 내부에는 광고 절대 금지 */
+.ticket-frame, .status-window, .visual-area {
+    google-auto-ads: none; /* (참고용 의사 코드: 실제로는 구글 설정에서 제외 영역 지정 권장) */
+}

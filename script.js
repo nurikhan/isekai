@@ -60,16 +60,6 @@ function setLanguage(lang) {
     document.getElementById('ui-btn-share').innerText = ui.btnShare;
     document.getElementById('ui-btn-retry').innerText = ui.btnRetry;
 
-    // [FAQ 및 가이드 텍스트 업데이트] - 여기가 작동 안 했던 부분
-    if (document.getElementById('ui-guide-title')) {
-        document.getElementById('ui-guide-title').innerText = ui.guideTitle;
-        document.getElementById('ui-guide-q1').innerText = ui.guideQ1;
-        document.getElementById('ui-guide-a1').innerText = ui.guideA1;
-        document.getElementById('ui-guide-q2').innerText = ui.guideQ2;
-        document.getElementById('ui-guide-a2').innerText = ui.guideA2;
-        document.getElementById('ui-guide-q3').innerText = ui.guideQ3;
-        document.getElementById('ui-guide-a3').innerText = ui.guideA3;
-    }
     // [추가] 가이드 & 세계관 다국어 적용 (innerHTML 사용 필수!)
     if (document.getElementById('ui-guide-main-title')) {
         document.getElementById('ui-guide-main-title').innerText = ui.guideSectionTitle;
