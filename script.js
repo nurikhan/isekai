@@ -18,8 +18,14 @@ function setLanguage(lang) {
         // }
     });
 
+    // data-lang 속성으로 활성화 (if 구문 완전히 삭제됨)
+    const activeBtn = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
+    if (activeBtn) {
+        activeBtn.classList.add('active');
+    }
+
     // data-lang 속성 활용 (HTML도 수정 필요)
-    document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
+    // document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
 
     // 2. UI 텍스트 업데이트
     document.title = ui.title.replace('<br>', ' '); 
@@ -177,8 +183,9 @@ function calculateResult(name, gender, stress) {
 
     // UI 업데이트
     document.getElementById('res-user-name').innerText = name;
-    document.getElementById('res-char-name').innerText = character.name;
     document.getElementById('res-rank').innerText = `RANK ${character.tier}`;
+    document.getElementById('res-char-name').innerText = character.name;
+    document.getElementById('res-char-desc').innerText = character.desc;
     document.getElementById('res-world').innerText = `${world.text}\n(${world.desc})`;
     document.getElementById('res-skill-rank').innerText = `[${skill.tier}]`;
     document.getElementById('res-skill-name').innerText = skill.name;
@@ -206,6 +213,8 @@ function calculateResult(name, gender, stress) {
             charLayer.innerHTML = ''; // 기본 처리
         };
         img.src = character.img;
+    } else {
+        document.getElementById('char-layer').innerHTML = '';
     }
 
     // if (character.img) {
