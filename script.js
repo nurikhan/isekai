@@ -13,10 +13,13 @@ function setLanguage(lang) {
     buttons.forEach(btn => {
         btn.classList.remove('active'); // 일단 모두 끄고
         // 버튼의 onclick 속성에 해당 언어 코드가 들어있는지 확인
-        if (btn.getAttribute('onclick').includes(`'${lang}'`)) {
-            btn.classList.add('active'); // 맞는 버튼만 켭니다
-        }
+        // if (btn.getAttribute('onclick').includes(`'${lang}'`)) {
+        //     btn.classList.add('active'); // 맞는 버튼만 켭니다
+        // }
     });
+
+    // data-lang 속성 활용 (HTML도 수정 필요)
+    document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.add('active');
 
     // 2. UI 텍스트 업데이트
     document.title = ui.title.replace('<br>', ' '); 
@@ -191,12 +194,26 @@ function calculateResult(name, gender, stress) {
     if (world.img) document.getElementById('bg-layer').style.backgroundImage = `url('${world.img}')`;
     else document.getElementById('bg-layer').style.background = '#333';
 
+    // 이미지 로드 에러 핸들링 추가
     if (character.img) {
         const charLayer = document.getElementById('char-layer');
-        charLayer.innerHTML = `<img src="${character.img}" alt="${character.name}">`;
-    } else {
-        document.getElementById('char-layer').innerHTML = '';
+        const img = new Image();
+        img.onload = function() {
+            charLayer.innerHTML = `<img src="${character.img}" alt="${character.name}">`;
+        };
+        img.onerror = function() {
+            console.warn(`Character image not found: ${character.img}`);
+            charLayer.innerHTML = ''; // 기본 처리
+        };
+        img.src = character.img;
     }
+
+    // if (character.img) {
+    //     const charLayer = document.getElementById('char-layer');
+    //     charLayer.innerHTML = `<img src="${character.img}" alt="${character.name}">`;
+    // } else {
+    //     document.getElementById('char-layer').innerHTML = '';
+    // }
     
     if (partner.img) {
         const partnerDiv = document.querySelector('.partner-img-placeholder');
